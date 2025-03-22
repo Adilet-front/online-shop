@@ -1,0 +1,182 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Г/Ц Блинчики с мясом вес, Россия",
+      "price": "44,50",
+      "oldPrice": "50,50",
+      "discount": 50,
+      "category": "Акции",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/ad29ef5cb5c10bd68b9f6dd7934d9a84ebc9b9cc"
+    },
+
+    {
+      "id": 2,
+      "name": "Молоко ПРОСТОКВАШИНО пастеризованное",
+      "price": "44,50",
+      "oldPrice": "50,50",
+      "discount": 50,
+      "category": "Акции",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/426b682e3c7d59fec09bf772f11bc4d84b0d2a2a"
+    },
+    {
+      "id": 3,
+      "name": "Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ",
+      "price": "44,50",
+      "oldPrice": "50,50",
+      "discount": 50,
+      "category": "Акции",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/c3ebdb2953087affaab802491eed306dac7b151e"
+    },
+    {
+      "id": 4,
+      "name": "Сосиски вареные МЯСНАЯ ИСТОРИЯ",
+      "price": "44,50",
+      "oldPrice": "50,50",
+      "discount": 50,
+      "category": "Акции",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/42e5bebec7f4a09ca6f08b72069d9e268e8e27c9"
+    },
+    {
+      "id": 5,
+      "name": "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
+      "price": "599,99",
+      "category": "Новинки",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/99cea554fb0392557de1c2a79808b1a718e015cf"
+    },
+    {
+      "id": 6,
+      "name": "Колбаса сырокопченая МЯСНАЯ ИСТОРИЯ",
+      "price": "44,50",
+      "category": "Новинки",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/c3ebdb2953087affaab802491eed306dac7b151e"
+    },
+    {
+      "id": 7,
+      "name": "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
+      "price": "599,99",
+      "category": "Новинки",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/42e5bebec7f4a09ca6f08b72069d9e268e8e27c9"
+    },
+
+    {
+      "id": 8,
+      "name": "Молоко КЗС-1218",
+      "price": "49,39",
+      "category": "Новинки",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/426b682e3c7d59fec09bf772f11bc4d84b0d2a2a"
+    },
+    {
+      "id": 9,
+      "name": "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
+      "price": "77,99",
+      "category": "Покупали раньше",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/770bb46b654c2c5455a57d70b59f1ba2f2b8817f"
+    },
+    {
+      "id": 10,
+      "name": "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
+      "price": "599,99",
+      "category": "Покупали раньше",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/42e5bebec7f4a09ca6f08b72069d9e268e8e27c9"
+    },
+    {
+      "id": 11,
+      "name": "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
+      "price": "599,99",
+      "category": "Покупали раньше",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/99cea554fb0392557de1c2a79808b1a718e015cf"
+    },
+    {
+      "id": 12,
+      "name": "Молоко КЗС-1218",
+      "price": "49,39",
+      "category": "Покупали раньше",
+      "rating": [
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://www.svgrepo.com/show/13695/star.svg",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png",
+        "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/426b682e3c7d59fec09bf772f11bc4d84b0d2a2a"
+    }
+  ]
+}

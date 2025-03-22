@@ -1,0 +1,186 @@
+//  шрифт: font-family: "Rubik";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik";
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbf8ec;
+
+  .mainWrapper {
+    header {
+      #header-Button {
+        margin-left: 116px;
+        background-color: #ffffff;
+
+        .logo-header {
+          cursor: pointer;
+        }
+      }
+
+      background-color: #ffffff;
+      width: 100%;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+
+      .input-button-container {
+        position: relative;
+        input {
+          padding-left: 16px;
+          width: 838px;
+          height: 40px;
+          border: 1px solid #70c05b;
+          border-radius: 4px;
+        }
+        button {
+          position: absolute;
+          right: 10px;
+          top: 6px;
+          background-color: #ffffff;
+          cursor: pointer;
+        }
+      }
+      #Heart-page {
+        background-color: #ffffff;
+        cursor: pointer;
+        .heart-cont {
+          text-align: center;
+        }
+      }
+      #Cart-page {
+        cursor: pointer;
+        background-color: #ffffff;
+        margin-right: 116px;
+        cart-cont {
+          text-align: center;
+        }
+      }
+    }
+    .afterHeaderPhoto {
+      img {
+        position: relative;
+        width: 100%;
+        height: 252px;
+        object-fit: cover;
+      }
+      .imgIn {
+        position: absolute;
+        top: 74px;
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 100%;
+        left: 9.7%;
+      }
+      .h1 {
+        h1 {
+          position: absolute;
+          display: flex;
+          left: 38.83%;
+          top: 170px;
+          font-weight: 700;
+          font-size: 48px;
+          color: hsl(0, 0%, 25%);
+        }
+      }
+    }
+
+    .Products {
+      width: 100%;
+      height: 1208px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+
+      .product-list {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 40px;
+        padding: 20px;
+        
+        .product {
+          width: 272px;
+          height: 349px;
+          border-radius: 4px;
+          background-color: #ffffff;
+          padding: 8px;
+          display: flex;
+          gap: 8px;
+          flex-direction: column;
+
+          .p-sale {
+            position: absolute;
+            top: 110px;
+            background-color: #ff6633;
+            width: 56px;
+            height: 32px;
+            color: #ffffff;
+            font-size: 16px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .prices {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 16px;
+            line-height: 150%;
+            .weight {
+              font-weight: 700;
+            }
+            .cash {
+              color: #606060;
+            }
+            .by-cash-p {
+              color: #bfbfbf;
+              font-size: 12px;
+            }
+          }
+
+          .product-heart {
+            position: absolute;
+            right: 10px;
+            opacity: 0.5;
+            top: 10px;
+            border-radius: 4px;
+          }
+          .cont-img {
+            position: relative;
+            width: 100%;
+            height: 160px;
+            overflow: hidden;
+            img {
+              object-fit: cover;
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .stars {
+            img {
+              width: 16px;
+              height: 16px;
+            }
+          }
+          .inCartButton {
+            width: 256px;
+            height: 40px;
+            border-radius: 4px;
+            color: #70c05b;
+            border: 1px solid #70c05b;
+            background-color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
