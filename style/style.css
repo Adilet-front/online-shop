@@ -167,4 +167,65 @@ body .mainWrapper .Products .product-list .product .inCartButton {
   color: #70c05b;
   border: 1px solid #70c05b;
   background-color: #ffffff;
+}
+body .mainWrapper .img-bg-footer {
+  height: 126px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .mainWrapper .img-bg-footer .bg-footer {
+  width: 100%;
+}
+body .mainWrapper .img-bg-footer .navs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 126px;
+}
+body .mainWrapper .img-bg-footer .navs nav {
+  position: absolute;
+  left: 116px;
+  bottom: 100px;
+}
+body .mainWrapper .img-bg-footer .navs nav .footerLi1 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+body .mainWrapper .img-bg-footer .navs nav .footerLi1 li a {
+  color: #414141;
+  text-decoration: none;
+}
+body .mainWrapper .img-bg-footer .navs .footerNav {
+  position: absolute;
+  right: 35%;
+}
+body .mainWrapper .img-bg-footer .navs .footerNav .footerLi2 {
+  position: absolute;
+  left: 872px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+body .mainWrapper .img-bg-footer .phone {
+  position: absolute;
+  top: -100px;
+  left: 1160px;
+  display: flex;
+  text-align: center;
+}
+body .mainWrapper .img-bg-footer .phone span {
+  font-family: "Rubik";
+}
+body .mainWrapper .img-bg-footer .end {
+  position: absolute;
+  top: -40px;
+  left: 1160px;
 }/*# sourceMappingURL=style.css.map */

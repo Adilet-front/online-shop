@@ -24,7 +24,7 @@ const renderProducts = () => {
 
             <div class="prices">
               <div class="bycard">
-                <p class="weight">${product.price}</p>
+                <p class="weight">${product.price}${"₽"}</p>
                   ${
                     product.price !== product.price
                       ?  " "
@@ -35,7 +35,7 @@ const renderProducts = () => {
               <div class="bycash">
               ${
                 product.oldPrice !== undefined
-                  ? `<p class="cash">${product.oldPrice}</p> 
+                  ? `<p class="cash">${product.oldPrice}${"₽"}</p> 
                 <p class="by-cash-p">Обычная</p>
                 `
                   : ""
