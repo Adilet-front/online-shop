@@ -3,10 +3,19 @@ const productList = document.querySelector(".product-list");
 
 let products = [];
 
+function getMainTitle(text) {
+  const title = document.createElement("h2");
+  text.classList.add("main-title")
+  title.textContent = text
+  return title
+}
 const renderProducts = () => {
+
   products.forEach((product) => {
     productList.innerHTML += `
+   
      <div class="product">
+     
             <div class="cont-img">
               <button class="product-heart">
                 <img src="/photo/Button.svg" alt="" />
