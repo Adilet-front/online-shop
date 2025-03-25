@@ -85,17 +85,81 @@ body .mainWrapper .afterHeaderPhoto .h1 h1 {
 }
 body .mainWrapper .Products {
   width: 100%;
-  height: 1208px;
+  height: 1400px;
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
+  flex: 4;
   gap: 40px;
+  position: relative;
+}
+body .mainWrapper .Products .productsSales {
+  width: 1208px;
+  position: absolute;
+  top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+body .mainWrapper .Products .productsSales button {
+  background-color: #fbf8ec;
+  cursor: pointer;
+  display: flex;
+  gap: 16px;
+}
+body .mainWrapper .Products .productsSales button a {
+  text-decoration: none;
+  color: #606060;
+}
+body .mainWrapper .Products .productsSales button img {
+  color: #606060;
+}
+body .mainWrapper .Products .productsNeewss {
+  position: absolute;
+  width: 1208px;
+  top: 470px;
+  display: flex;
+  justify-content: space-between;
+}
+body .mainWrapper .Products .productsNeewss button {
+  background-color: #fbf8ec;
+  cursor: pointer;
+  display: flex;
+  gap: 16px;
+}
+body .mainWrapper .Products .productsNeewss button a {
+  text-decoration: none;
+  color: #606060;
+}
+body .mainWrapper .Products .productsNeewss button img {
+  color: #606060;
+}
+body .mainWrapper .Products .productsBoughtBefore {
+  position: absolute;
+  width: 1208px;
+  top: 885px;
+  display: flex;
+  justify-content: space-between;
+}
+body .mainWrapper .Products .productsBoughtBefore button {
+  background-color: #fbf8ec;
+  cursor: pointer;
+  display: flex;
+  gap: 16px;
+}
+body .mainWrapper .Products .productsBoughtBefore button a {
+  text-decoration: none;
+  color: #606060;
+}
+body .mainWrapper .Products .productsBoughtBefore button img {
+  color: #606060;
 }
 body .mainWrapper .Products .product-list {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 40px;
-  padding: 20px;
 }
 body .mainWrapper .Products .product-list .product {
   width: 272px;
@@ -106,6 +170,7 @@ body .mainWrapper .Products .product-list .product {
   display: flex;
   gap: 8px;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 body .mainWrapper .Products .product-list .product .p-sale {
   position: absolute;
@@ -168,6 +233,11 @@ body .mainWrapper .Products .product-list .product .inCartButton {
   border: 1px solid #70c05b;
   background-color: #ffffff;
 }
+body .mainWrapper .Products .product-list .product .inCartButton:hover {
+  color: #ffffff;
+  border: 1px solid #ff6633;
+  background-color: #ff6633;
+}
 body .mainWrapper .img-bg-footer {
   height: 126px;
   display: flex;
@@ -182,7 +252,7 @@ body .mainWrapper .img-bg-footer .navs {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 1440px;
+  width: 100%;
   height: 126px;
 }
 body .mainWrapper .img-bg-footer .navs nav {
@@ -220,9 +290,6 @@ body .mainWrapper .img-bg-footer .phone {
   left: 1160px;
   display: flex;
   text-align: center;
-}
-body .mainWrapper .img-bg-footer .phone span {
-  font-family: "Rubik";
 }
 body .mainWrapper .img-bg-footer .end {
   position: absolute;
