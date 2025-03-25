@@ -16,12 +16,12 @@ body {
       #header-Button {
         margin-left: 116px;
         background-color: #ffffff;
-
+  
         .logo-header {
           cursor: pointer;
         }
       }
-
+  
       background-color: #ffffff;
       width: 100%;
       height: 72px;
@@ -29,7 +29,7 @@ body {
       align-items: center;
       justify-content: center;
       gap: 40px;
-
+  
       .input-button-container {
         position: relative;
         input {
@@ -63,6 +63,7 @@ body {
         }
       }
     }
+
 
     .afterHeaderPhoto {
       img {

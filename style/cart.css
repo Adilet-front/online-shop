@@ -1,1 +1,118 @@
-/*# sourceMappingURL=cart.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik";
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+body header #header-Button {
+  margin-left: 116px;
+  background-color: #ffffff;
+}
+body header #header-Button .logo-header {
+  cursor: pointer;
+}
+body header .input-button-container {
+  position: relative;
+}
+body header .input-button-container input {
+  padding-left: 16px;
+  width: 838px;
+  height: 40px;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+}
+body header .input-button-container button {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+body header #Heart-page {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+body header #Heart-page .heart-cont {
+  text-align: center;
+}
+body header #Cart-page {
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-right: 116px;
+}
+body header #Cart-page cart-cont {
+  text-align: center;
+}
+body .img-bg-footer {
+  height: 126px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .img-bg-footer .bg-footer {
+  width: 100%;
+}
+body .img-bg-footer .navs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 126px;
+}
+body .img-bg-footer .navs nav {
+  position: absolute;
+  left: 116px;
+  bottom: 100px;
+}
+body .img-bg-footer .navs nav .footerLi1 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+body .img-bg-footer .navs nav .footerLi1 li a {
+  color: #414141;
+  text-decoration: none;
+}
+body .img-bg-footer .navs .footerNav {
+  position: absolute;
+  right: 35%;
+}
+body .img-bg-footer .navs .footerNav .footerLi2 {
+  position: absolute;
+  left: 872px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+body .img-bg-footer .phone {
+  position: absolute;
+  top: -100px;
+  left: 1160px;
+  display: flex;
+  text-align: center;
+}
+body .img-bg-footer .phone span {
+  font-family: "Rubik";
+}
+body .img-bg-footer .end {
+  position: absolute;
+  top: -40px;
+  left: 1160px;
+}/*# sourceMappingURL=cart.css.map */

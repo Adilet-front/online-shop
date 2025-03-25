@@ -14,6 +14,9 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "brand" : "Баба Маня",
+      "country of origin":"Россия",
+      "package":"200г",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/ad29ef5cb5c10bd68b9f6dd7934d9a84ebc9b9cc"
     },
 
@@ -31,6 +34,9 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "brand" : "ПРОСТОКВАШИНО",
+      "country of origin":"Россия",
+      "package":"1000мл",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/426b682e3c7d59fec09bf772f11bc4d84b0d2a2a"
     },
     {
@@ -47,6 +53,9 @@
         "https://www.svgrepo.com/show/13695/star.svg",
         "https://www.svgrepo.com/show/13695/star.svg"
       ],
+      "brand" : "МЯСНАЯ ИСТОРИЯ",
+      "country of origin":"Казахстан",
+      "package":"700гр",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/c3ebdb2953087affaab802491eed306dac7b151e"
     },
     {
@@ -63,6 +72,9 @@
         "https://www.svgrepo.com/show/13695/star.svg",
         "https://www.svgrepo.com/show/13695/star.svg"
       ],
+      "brand" : "МЯСНАЯ ИСТОРИЯ",
+      "country of origin":"Казахстан",
+      "package":"500гр",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/42e5bebec7f4a09ca6f08b72069d9e268e8e27c9"
     },
     {
@@ -91,6 +103,9 @@
         "https://www.svgrepo.com/show/13695/star.svg",
         "https://www.svgrepo.com/show/13695/star.svg"
       ],
+      "brand" : "МЯСНАЯ ИСТОРИЯ",
+      "country of origin":"Казахстан",
+      "package":"700гр",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/c3ebdb2953087affaab802491eed306dac7b151e"
     },
     {
@@ -105,6 +120,9 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "brand" : "КЗС-1218",
+      "country of origin":"Кыргызстан",
+      "package":"700гр",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/42e5bebec7f4a09ca6f08b72069d9e268e8e27c9"
     },
 
@@ -120,6 +138,9 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "brand" : "КЗС-1218",
+      "country of origin":"Кыргызстан",
+      "package":"700мл",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/426b682e3c7d59fec09bf772f11bc4d84b0d2a2a"
     },
     {
@@ -134,6 +155,9 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "brand" : "КЗС-1218",
+      "country of origin":"Кыргызстан",
+      "package":"80гр",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/770bb46b654c2c5455a57d70b59f1ba2f2b8817f"
     },
     {
@@ -148,6 +172,9 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "brand" : "КЗС-1218",
+      "country of origin":"Кыргызстан",
+      "package":"1900гр",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/42e5bebec7f4a09ca6f08b72069d9e268e8e27c9"
     },
     {
@@ -162,6 +189,9 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "brand" : "КЗС-1218",
+      "country of origin":"Кыргызстан",
+      "package":"1900гр",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/99cea554fb0392557de1c2a79808b1a718e015cf"
     },
     {
@@ -176,6 +206,9 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "brand" : "КЗС-1218",
+      "country of origin":"Кыргызстан",
+      "package":"1000мл",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/426b682e3c7d59fec09bf772f11bc4d84b0d2a2a"
     }
   ]
