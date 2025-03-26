@@ -1,0 +1,443 @@
+//  шрифт: font-family: "Rubik";
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik";
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbf8ec;
+  header {
+    #header-Button {
+      margin-left: 116px;
+      background-color: #ffffff;
+
+      .logo-header {
+        cursor: pointer;
+      }
+    }
+
+    background-color: #ffffff;
+    width: 100%;
+    height: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+
+    .input-button-container {
+      position: relative;
+      input {
+        padding-left: 16px;
+        width: 838px;
+        height: 40px;
+        border: 1px solid #70c05b;
+        border-radius: 4px;
+      }
+      button {
+        position: absolute;
+        right: 10px;
+        top: 6px;
+        background-color: #ffffff;
+        cursor: pointer;
+      }
+    }
+    #Heart-page {
+      background-color: #ffffff;
+      cursor: pointer;
+      .heart-cont {
+        text-align: center;
+      }
+    }
+    #Cart-page {
+      cursor: pointer;
+      background-color: #ffffff;
+      margin-right: 116px;
+      cart-cont {
+        text-align: center;
+      }
+    }
+  }
+
+  .wrapper {
+    background-color: #fbf8ec;
+    .items {
+      width: 1208px;
+      height: 1722px;
+      display: flex;
+      flex-direction: column;
+      gap: 120px;
+      margin: 72px 116px;
+      .item {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        .info {
+          display: flex;
+          gap: 16px;
+          flex-direction: column;
+          .cartInfo {
+            font-family: "Rubik";
+            font-weight: 700;
+            font-size: 24px;
+            color: #414141;
+          }
+          .infoTem {
+            width: auto;
+            height: 32px;
+            gap: 24px;
+            display: flex;
+            align-items: center;
+            .likes {
+              font-family: "Rubik";
+              font-weight: 400;
+              font-size: 12px;
+              color: #414141;
+            }
+            .rating {
+              gap: 8px;
+              display: flex;
+              img {
+                width: 16px;
+                height: 16px;
+                border-radius: 1px;
+              }
+              .otz {
+                font-family: "Roboto";
+                font-weight: 400;
+                font-size: 14px;
+                a {
+                  color: #414141;
+                }
+              }
+            }
+            .del {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              text-align: center;
+              font-family: Rubik;
+              font-weight: 400;
+              font-size: 12px;
+              vertical-align: middle;
+              height: 32px;
+              background-color: #fbf8ec;
+            }
+            .izb {
+              display: flex;
+              align-items: center;
+              gap: 8px;
+              text-align: center;
+              font-family: Rubik;
+              font-weight: 400;
+              font-size: 12px;
+              vertical-align: middle;
+              height: 32px;
+              background-color: #fbf8ec;
+            }
+          }
+        }
+        .products {
+          display: flex;
+          gap: 40px;
+          .productsImages {
+            display: flex;
+            gap: 16px;
+            .productsImagesBlock {
+              img {
+                width: 64px;
+                height: 87px;
+              }
+              gap: 16px;
+              border-radius: 4px;
+              display: flex;
+              flex-direction: column;
+            }
+            .productsImagesOne {
+              img {
+                width: 504px;
+                height: 496px;
+              }
+            }
+          }
+          .productsEnof {
+            display: flex;
+            gap: 40px;
+            .productsEnofBuy {
+              display: flex;
+              flex-direction: column;
+              gap: 8px;
+              .price {
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+                .priceAdd {
+                  display: flex;
+                  align-items: center;
+                  gap: 113px;
+                  .priceOne {
+                    font-family: "Rubik";
+                    font-weight: 400;
+                    font-size: 24px;
+                    color: #606060;
+                  }
+                  .priceTwo {
+                    font-family: "Rubik";
+                    font-weight: 700;
+                    font-size: 36px;
+                    color: #414141;
+                  }
+                }
+                .priceInfo {
+                  display: flex;
+                  align-items: center;
+                  gap: 131px;
+                  .priceInfoOne {
+                    font-family: "Rubik";
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: #bfbfbf;
+                  }
+                  .priceInfoTwo {
+                    font-family: "Rubik";
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: #bfbfbf;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                  }
+                }
+              }
+              .productsEnofBuyAdd {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                align-items: center;
+                justify-content: center;
+                .buy {
+                  width: 376px;
+                  height: 60px;
+                  display: flex;
+                  gap: 8px;
+                  border-radius: 4px;
+                  padding: 16px;
+                  background-color: #ff6633;
+                  justify-content: center;
+                  align-content: center;
+                  font-family: "Rubik";
+                  font-weight: 400;
+                  font-size: 24px;
+                  color: #ffffff;
+                  text-align: center;
+                  vertical-align: middle;
+                }
+                .bonus {
+                  width: 212px;
+                  height: 32px;
+                  display: flex;
+                  gap: 8px;
+                  border-radius: 4px;
+                  justify-content: center;
+                  align-items: center;
+                  font-family: "Rubik";
+                  font-weight: 400;
+                  font-size: 12px;
+                  text-align: center;
+                  vertical-align: middle;
+                  color: #70c05b;
+                }
+                .yved {
+                  width: 248px;
+                  height: 32px;
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 8px;
+                  border-radius: 4px;
+                  padding: 8px;
+                  font-family: "Rubik";
+                  font-weight: 400;
+                  font-size: 12px;
+                  text-align: center;
+                  vertical-align: middle;
+                  color: #606060;
+                }
+              }
+              .aboutProduct {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                padding: 16px;
+                .brand {
+                  width: 376px;
+                  height: 26px;
+                  display: flex;
+                  text-align: center;
+                  justify-content: space-around;
+                  align-items: center;
+                  background-color: #f3f2f1;
+                  p {
+                    font-family: "Rubik";
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: #414141;
+                  }
+                  h5 {
+                    font-family: "Roboto";
+                    font-size: 12px;
+                    color: #414141;
+                  }
+                }
+                .contry {
+                  width: 376px;
+                  height: 26px;
+                  display: flex;
+                  text-align: center;
+                  justify-content: space-around;
+                  align-items: center;
+                  p {
+                    font-family: "Rubik";
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: #414141;
+                  }
+                  h5 {
+                    font-family: "Roboto";
+                    font-size: 12px;
+                    color: #414141;
+                  }
+                }
+                .pacage {
+                  width: 376px;
+                  height: 26px;
+                  display: flex;
+                  text-align: center;
+                  justify-content: space-around;
+                  align-items: center;
+                  background-color: #f3f2f1;
+                  p {
+                    font-family: "Rubik";
+                    font-weight: 400;
+                    font-size: 12px;
+                    color: #414141;
+                  }
+                  h5 {
+                    font-family: "Roboto";
+                    font-size: 12px;
+                    color: #414141;
+                  }
+                }
+              }
+            }
+            .productsEnofProductsBlock {
+              width: 168px;
+              height: 496px;
+              display: flex;
+              gap: 8px;
+              flex-direction: column;
+              .productsEnofProducts {
+                h4 {
+                  font-family: "Rubik";
+                  font-weight: 400;
+                  font-size: 16px;
+                  color: #606060;
+                  text-align: start;
+                  padding-bottom: 8px;
+                }
+                .photorem {
+                  width: 168px;
+                  height: 104px;
+                  border-radius: 4px;
+                  background-color: #ffffff;
+                  p {
+                    padding: 10px 10px;
+                    font-family: "Rubik";
+                    font-weight: 700;
+                    font-size: 18px;
+                    color: #414141;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .img-bg-footer {
+    height: 126px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .bg-footer {
+      width: 100%;
+    }
+    .navs {
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 1440px;
+      height: 126px;
+      nav {
+        position: absolute;
+        left: 116px;
+        bottom: 100px;
+
+        .footerLi1 {
+          position: absolute;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 50px;
+          list-style: none;
+
+          li {
+            a {
+              color: #414141;
+              text-decoration: none;
+            }
+          }
+        }
+      }
+      .footerNav {
+        position: absolute;
+        right: 35%;
+        .footerLi2 {
+          position: absolute;
+          left: 872px;
+
+          display: flex;
+          flex-direction: row;
+          gap: 20px;
+          align-items: center;
+        }
+      }
+    }
+    .phone {
+      position: absolute;
+      top: -100px;
+      left: 1160px;
+      display: flex;
+      text-align: center;
+      span {
+        font-family: "Rubik";
+      }
+    }
+
+    .end {
+      position: absolute;
+      top: -40px;
+      left: 1160px;
+    }
+  }
+}
