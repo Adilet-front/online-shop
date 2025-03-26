@@ -1,0 +1,295 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik";
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #fbf8ec;
+
+  .mainWrapper {
+    header {
+      #header-Button {
+        margin-left: 116px;
+        background-color: #ffffff;
+
+        .logo-header {
+          cursor: pointer;
+        }
+      }
+
+      background-color: #ffffff;
+      width: 100%;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      gap: 40px;
+
+      .input-button-container {
+        position: relative;
+        input {
+          padding-left: 16px;
+          width: 838px;
+          height: 40px;
+          border: 1px solid #70c05b;
+          border-radius: 4px;
+        }
+        button {
+          position: absolute;
+          right: 10px;
+          top: 6px;
+          background-color: #ffffff;
+          cursor: pointer;
+        }
+      }
+      #Heart-page {
+        background-color: #ffffff;
+        cursor: pointer;
+        .heart-cont {
+          text-align: center;
+        }
+      }
+      #Cart-page {
+        cursor: pointer;
+        background-color: #ffffff;
+        margin-right: 116px;
+        cart-cont {
+          text-align: center;
+        }
+      }
+    }
+
+    .Products {
+      width: 100%;
+      height: 100%;
+      margin-top: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      flex: 4;
+      gap: 40px;
+      position: relative;
+
+      .productsSales {
+        width: 1208px;
+        position: absolute;
+        top: -65px;
+        display: flex;
+        justify-content: space-between;
+
+        button {
+          background-color: #fbf8ec;
+          cursor: pointer;
+          display: flex;
+          gap: 16px;
+          a {
+            text-decoration: none;
+            color: #606060;
+          }
+          img {
+            color: #606060;
+          }
+        }
+      }
+      .productsNeewss {
+        position: absolute;
+        width: 1208px;
+        top: 470px;
+        display: flex;
+        justify-content: space-between;
+        button {
+          background-color: #fbf8ec;
+          cursor: pointer;
+          display: flex;
+          gap: 16px;
+          a {
+            text-decoration: none;
+            color: #606060;
+          }
+          img {
+            color: #606060;
+          }
+        }
+      }
+      .productsBoughtBefore {
+        position: absolute;
+        width: 1208px;
+        top: 885px;
+        display: flex;
+        justify-content: space-between;
+        button {
+          background-color: #fbf8ec;
+          cursor: pointer;
+          display: flex;
+          gap: 16px;
+          a {
+            text-decoration: none;
+            color: #606060;
+          }
+          img {
+            color: #606060;
+          }
+        }
+      }
+      .product-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+
+        .product {
+          width: 272px;
+          height: 349px;
+          border-radius: 4px;
+          background-color: #ffffff;
+          padding: 8px;
+          display: flex;
+          gap: 8px;
+          flex-direction: column;
+          margin-bottom: 30px;
+
+          .p-sale {
+            position: absolute;
+            top: 110px;
+            background-color: #ff6633;
+            width: 56px;
+            height: 32px;
+            color: #ffffff;
+            font-size: 16px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .prices {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 16px;
+            line-height: 150%;
+            .weight {
+              font-weight: 700;
+            }
+            .cash {
+              color: #606060;
+            }
+            .by-cash-p {
+              color: #bfbfbf;
+              font-size: 12px;
+            }
+          }
+
+          .product-heart {
+            position: absolute;
+            right: 10px;
+            opacity: 0.5;
+            top: 10px;
+            border-radius: 4px;
+          }
+          .cont-img {
+            position: relative;
+            width: 100%;
+            height: 160px;
+            overflow: hidden;
+            img {
+              object-fit: cover;
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .stars {
+            img {
+              width: 16px;
+              height: 16px;
+            }
+          }
+          .inCartButton {
+            width: 256px;
+            height: 40px;
+            border-radius: 4px;
+            color: #70c05b;
+            border: 1px solid #70c05b;
+            background-color: #ffffff;
+          }
+          .inCartButton:hover {
+            color: #ffffff;
+            border: 1px solid #ff6633;
+
+            background-color: #ff6633;
+          }
+        }
+      }
+    }
+    .img-bg-footer {
+      height: 126px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .bg-footer {
+        width: 100%;
+      }
+      .navs {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: 126px;
+        nav {
+          position: absolute;
+          left: 116px;
+          bottom: 100px;
+
+          .footerLi1 {
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 50px;
+            list-style: none;
+
+            li {
+              a {
+                color: #414141;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+        .footerNav {
+          position: absolute;
+          right: 35%;
+          .footerLi2 {
+            position: absolute;
+            left: 872px;
+
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+          }
+        }
+      }
+      .phone {
+        position: absolute;
+        top: -100px;
+        left: 1160px;
+        display: flex;
+        text-align: center;
+      }
+
+      .end {
+        position: absolute;
+        top: -40px;
+        left: 1160px;
+      }
+    }
+  }
+}
