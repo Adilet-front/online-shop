@@ -14,6 +14,18 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "watching-photo": [
+        "https://img.iamcook.ru/2021/upl/recipes/cat/u-48454eef071aa4465713245c1cf5e7a3.JPG",
+        "https://img.vkusvill.ru/pim/images/site_LargeWebP/ac80e9df-f040-4560-9244-46d1cbf03da6.webp?1718564188.5585",
+        "https://img1.russianfood.com/dycontent/images_upl/774/big_773463.jpg",
+        "https://img.vkusvill.ru/pim/images/site_LargeWebP/b4d3578f-e12b-4ac2-87d1-96437ba929bd.webp?1718645848.5932"
+      ],
+      "watching-price":[
+        "60,45",
+        "70,45",
+        "90,64",
+        "85,37"
+      ],
       "brand" : "Баба Маня",
       "country of origin":"Россия",
       "package":"200г",
@@ -34,6 +46,18 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "watching-photo": [
+        "https://img.fozzyshop.com.ua/odesa/204151-large_default/moloko-prostokvashino-pasterizovannoe-25.jpg",
+        "https://cdn-img.perekrestok.ru/i/800x800-fit/xdelivery/files/4f/e0/5eaa7cae3855e13c29c12f5ac3b8.jpg",
+        "https://ir.ozone.ru/s3/multimedia-1-h/c1000/7349582897.jpg",
+        "https://cdn-img.perekrestok.ru/i/800x800-fit/xdelivery/files/4f/e0/5eaa7cae3855e13c29c12f5ac3b8.jpg"
+      ],
+      "watching-price":[
+        "60,45",
+        "70,45",
+        "90,64",
+        "85,37"
+      ],
       "brand" : "ПРОСТОКВАШИНО",
       "country of origin":"Россия",
       "package":"1000мл",
@@ -52,6 +76,18 @@
         "https://www.svgrepo.com/show/13695/star.svg",
         "https://www.svgrepo.com/show/13695/star.svg",
         "https://www.svgrepo.com/show/13695/star.svg"
+      ],
+      "watching-photo": [
+        "https://images-foodtech.magnit.ru/s4PTcPCUdwFbIj8LcGJifw1ZCFiPRlMiLRb_Bu8ulaE/rs:fit:1600:1600/plain/s3://img-dostavka/uf/aed/aedf02999c7acda9b37da39d253e6873/c81b0d4da4acc6c58d9058df020f6ed3.png@webp",
+        "https://cdn-img.perekrestok.ru/i/800x800-fit/xdelivery/files/c3/cb/7d955d54728ba9a675078a2e8976.jpg",
+        "https://imgproxy.kuper.ru/imgproxy/size-680-680/czM6Ly9jb250ZW50LWltYWdlcy1wcm9kL3Byb2R1Y3RzLzE3MzEwMjk4L29yaWdpbmFsLzEvMjAyMi0wOC0yM1QxNiUzQTQ4JTNBMzQuMDUyMDAwJTJCMDAlM0EwMC8xNzMxMDI5OF8xLmpwZw==.jpg",
+        "https://imgproxy.kuper.ru/imgproxy/size-500-500/czM6Ly9jb250ZW50LWltYWdlcy1wcm9kL3Byb2R1Y3RzLzI0Mzg0NjI2L29yaWdpbmFsLzEvMjAyMy0wNi0xNVQxNSUzQTIzJTNBNTkuODc2MTM4JTJCMDAlM0EwMC8yNDM4NDYyNl8xLmpwZw==.jpg"
+      ],
+      "watching-price":[
+        "60,45",
+        "70,45",
+        "90,64",
+        "85,37"
       ],
       "brand" : "МЯСНАЯ ИСТОРИЯ",
       "country of origin":"Казахстан",
@@ -72,6 +108,18 @@
         "https://www.svgrepo.com/show/13695/star.svg",
         "https://www.svgrepo.com/show/13695/star.svg"
       ],
+      "watching-photo": [
+        "https://scdn.utkonos.ru/resample/webp/900x900/photo/532586/de67b307-d1ed-4420-9835-12e8cbcc2e38.png",
+        "https://kmpp.ru/upload/iblock/1f4/1f4a1ac0b14a8e11918fd74c16a38b40.png",
+        "https://kmpp.ru/upload/iblock/b3f/b3f095b96b37efae41bb63aab629f460.png",
+        "https://media.vprok.ru/products/x700/n7/ps/7wjn5fptubn3mvloanty3uauynrgpsn7.jpeg"
+      ],
+      "watching-price":[
+        "60,45",
+        "70,45",
+        "90,64",
+        "85,37"
+      ],
       "brand" : "МЯСНАЯ ИСТОРИЯ",
       "country of origin":"Казахстан",
       "package":"500гр",
@@ -89,6 +137,18 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "watching-photo": [
+        "https://globus-online.kg/upload/iblock/f79/fu55qfgu0he1xb3fjgw1vcrann8h6q6v/dbadddc8-e1da-11e1-9ddf-0022198f1974.png",
+        "https://s3.coolclever.tech/img/0000000090025274/960/22405.webp",
+        "https://s3.coolclever.tech/img/0000000001040019/1000/21392.webp",
+        "https://s3.coolclever.tech/img/0000000090027906/1000/22381.webp"
+      ],
+      "watching-price":[
+        "678.99",
+        "789.99",
+        "656.99",
+        "987.99"
+      ],
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/99cea554fb0392557de1c2a79808b1a718e015cf"
     },
     {
@@ -103,11 +163,25 @@
         "https://www.svgrepo.com/show/13695/star.svg",
         "https://www.svgrepo.com/show/13695/star.svg"
       ],
+      "watching-photo": [
+        "https://cdn.metro-cc.ru/ru/ru_pim_187071001001_01.png",
+        "https://cdn-img.perekrestok.ru/i/800x800-fit/xdelivery/files/b0/59/f8513xd8f629f6e6f232482c2a6d.jpg",
+        "https://d9ae6ad5-3627-4bf2-85a7-22bbd5549e94.selcdn.net/uploads/picture/picture/819779/large_6179820230719-16730-13b2gip.jpg",
+        "https://imgproxy.kuper.ru/imgproxy/size-500-500/czM6Ly9jb250ZW50LWltYWdlcy1wcm9kL3Byb2R1Y3RzLzMwNzM1MDcyL29yaWdpbmFsLzIvMjAyNC0wMi0wNlQwOSUzQTA4JTNBNDYuODM5MzA0JTJCMDAlM0EwMC8zMDczNTA3Ml8yLmpwZw==.jpg"
+      ],
+      "watching-price":[
+        "60,45",
+        "70,45",
+        "90,64",
+        "85,37"
+      ],
+      
       "brand" : "МЯСНАЯ ИСТОРИЯ",
       "country of origin":"Казахстан",
       "package":"700гр",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/c3ebdb2953087affaab802491eed306dac7b151e"
     },
+    
     {
       "id": 7,
       "name": "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
@@ -119,6 +193,18 @@
         "https://www.svgrepo.com/show/13695/star.svg",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "watching-photo": [
+        "https://globus-online.kg/upload/iblock/f79/fu55qfgu0he1xb3fjgw1vcrann8h6q6v/dbadddc8-e1da-11e1-9ddf-0022198f1974.png",
+        "https://s3.coolclever.tech/img/0000000090025274/960/22405.webp",
+        "https://s3.coolclever.tech/img/0000000001040019/1000/21392.webp",
+        "https://s3.coolclever.tech/img/0000000090027906/1000/22381.webp"
+      ],
+      "watching-price":[
+        "678.99",
+        "789.99",
+        "656.99",
+        "987.99"
       ],
       "brand" : "КЗС-1218",
       "country of origin":"Кыргызстан",
@@ -138,6 +224,18 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+      "watching-photo": [
+        "https://img.fozzyshop.com.ua/odesa/204151-large_default/moloko-prostokvashino-pasterizovannoe-25.jpg",
+        "https://cdn-img.perekrestok.ru/i/800x800-fit/xdelivery/files/4f/e0/5eaa7cae3855e13c29c12f5ac3b8.jpg",
+        "https://ir.ozone.ru/s3/multimedia-1-h/c1000/7349582897.jpg",
+        "https://cdn-img.perekrestok.ru/i/800x800-fit/xdelivery/files/4f/e0/5eaa7cae3855e13c29c12f5ac3b8.jpg"
+      ],
+      "watching-price":[
+        "60,45",
+        "70,45",
+        "90,64",
+        "85,37"
+      ],
       "brand" : "КЗС-1218",
       "country of origin":"Кыргызстан",
       "package":"700мл",
@@ -155,11 +253,24 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+   "watching-photo": [
+        "https://images-foodtech.magnit.ru/s4PTcPCUdwFbIj8LcGJifw1ZCFiPRlMiLRb_Bu8ulaE/rs:fit:1600:1600/plain/s3://img-dostavka/uf/aed/aedf02999c7acda9b37da39d253e6873/c81b0d4da4acc6c58d9058df020f6ed3.png@webp",
+        "https://cdn-img.perekrestok.ru/i/800x800-fit/xdelivery/files/c3/cb/7d955d54728ba9a675078a2e8976.jpg",
+        "https://imgproxy.kuper.ru/imgproxy/size-680-680/czM6Ly9jb250ZW50LWltYWdlcy1wcm9kL3Byb2R1Y3RzLzE3MzEwMjk4L29yaWdpbmFsLzEvMjAyMi0wOC0yM1QxNiUzQTQ4JTNBMzQuMDUyMDAwJTJCMDAlM0EwMC8xNzMxMDI5OF8xLmpwZw==.jpg",
+        "https://imgproxy.kuper.ru/imgproxy/size-500-500/czM6Ly9jb250ZW50LWltYWdlcy1wcm9kL3Byb2R1Y3RzLzI0Mzg0NjI2L29yaWdpbmFsLzEvMjAyMy0wNi0xNVQxNSUzQTIzJTNBNTkuODc2MTM4JTJCMDAlM0EwMC8yNDM4NDYyNl8xLmpwZw==.jpg"
+      ],
+      "watching-price":[
+        "99,45",
+        "120,45",
+        "203,64",
+        "192,37"
+      ],
       "brand" : "КЗС-1218",
       "country of origin":"Кыргызстан",
       "package":"80гр",
       "imageUrl": "https://www.figma.com/file/pm6eftZlUNYnOSCZq0ciOa/image/770bb46b654c2c5455a57d70b59f1ba2f2b8817f"
     },
+    
     {
       "id": 10,
       "name": "Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»",
@@ -171,6 +282,18 @@
         "https://www.svgrepo.com/show/13695/star.svg",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+      "watching-photo": [
+        "https://scdn.utkonos.ru/resample/webp/900x900/photo/532586/de67b307-d1ed-4420-9835-12e8cbcc2e38.png",
+        "https://kmpp.ru/upload/iblock/1f4/1f4a1ac0b14a8e11918fd74c16a38b40.png",
+        "https://kmpp.ru/upload/iblock/b3f/b3f095b96b37efae41bb63aab629f460.png",
+        "https://media.vprok.ru/products/x700/n7/ps/7wjn5fptubn3mvloanty3uauynrgpsn7.jpeg"
+      ],
+      "watching-price":[
+        "60,45",
+        "70,45",
+        "90,64",
+        "85,37"
       ],
       "brand" : "КЗС-1218",
       "country of origin":"Кыргызстан",
@@ -189,6 +312,18 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
       ],
+    "watching-photo": [
+        "https://globus-online.kg/upload/iblock/f79/fu55qfgu0he1xb3fjgw1vcrann8h6q6v/dbadddc8-e1da-11e1-9ddf-0022198f1974.png",
+        "https://s3.coolclever.tech/img/0000000090025274/960/22405.webp",
+        "https://s3.coolclever.tech/img/0000000001040019/1000/21392.webp",
+        "https://s3.coolclever.tech/img/0000000090027906/1000/22381.webp"
+      ],
+      "watching-price":[
+        "678.99",
+        "789.99",
+        "656.99",
+        "987.99"
+      ],
       "brand" : "КЗС-1218",
       "country of origin":"Кыргызстан",
       "package":"1900гр",
@@ -205,6 +340,18 @@
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png",
         "https://cdn-icons-png.flaticon.com/128/69/69495.png"
+      ],
+     "watching-photo": [
+        "https://img.fozzyshop.com.ua/odesa/204151-large_default/moloko-prostokvashino-pasterizovannoe-25.jpg",
+        "https://cdn-img.perekrestok.ru/i/800x800-fit/xdelivery/files/4f/e0/5eaa7cae3855e13c29c12f5ac3b8.jpg",
+        "https://ir.ozone.ru/s3/multimedia-1-h/c1000/7349582897.jpg",
+        "https://cdn-img.perekrestok.ru/i/800x800-fit/xdelivery/files/4f/e0/5eaa7cae3855e13c29c12f5ac3b8.jpg"
+      ],
+      "watching-price":[
+        "60,45",
+        "70,45",
+        "90,64",
+        "85,37"
       ],
       "brand" : "КЗС-1218",
       "country of origin":"Кыргызстан",
