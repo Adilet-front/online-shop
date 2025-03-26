@@ -1,0 +1,426 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik";
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbf8ec;
+}
+body header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+body header #header-Button {
+  margin-left: 116px;
+  background-color: #ffffff;
+}
+body header #header-Button .logo-header {
+  cursor: pointer;
+}
+body header .input-button-container {
+  position: relative;
+}
+body header .input-button-container input {
+  padding-left: 16px;
+  width: 838px;
+  height: 40px;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+}
+body header .input-button-container button {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+body header #Heart-page {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+body header #Heart-page .heart-cont {
+  text-align: center;
+}
+body header #Cart-page {
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-right: 116px;
+}
+body header #Cart-page cart-cont {
+  text-align: center;
+}
+body .wrapper {
+  background-color: #fbf8ec;
+}
+body .wrapper .items {
+  width: 1208px;
+  height: 1722px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  margin: 72px 116px;
+}
+body .wrapper .items .item {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+body .wrapper .items .item .info {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+}
+body .wrapper .items .item .info .cartInfo {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 24px;
+  color: #414141;
+}
+body .wrapper .items .item .info .infoTem {
+  width: auto;
+  height: 32px;
+  gap: 24px;
+  display: flex;
+  align-items: center;
+}
+body .wrapper .items .item .info .infoTem .likes {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  color: #414141;
+}
+body .wrapper .items .item .info .infoTem .rating {
+  gap: 8px;
+  display: flex;
+}
+body .wrapper .items .item .info .infoTem .rating img {
+  width: 16px;
+  height: 16px;
+  border-radius: 1px;
+}
+body .wrapper .items .item .info .infoTem .rating .otz {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 14px;
+}
+body .wrapper .items .item .info .infoTem .rating .otz a {
+  color: #414141;
+}
+body .wrapper .items .item .info .infoTem .del {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 12px;
+  vertical-align: middle;
+  height: 32px;
+  background-color: #fbf8ec;
+}
+body .wrapper .items .item .info .infoTem .izb {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 12px;
+  vertical-align: middle;
+  height: 32px;
+  background-color: #fbf8ec;
+}
+body .wrapper .items .item .products {
+  display: flex;
+  gap: 40px;
+}
+body .wrapper .items .item .products .productsImages {
+  display: flex;
+  gap: 16px;
+}
+body .wrapper .items .item .products .productsImages .productsImagesBlock {
+  gap: 16px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+}
+body .wrapper .items .item .products .productsImages .productsImagesBlock img {
+  width: 64px;
+  height: 87px;
+}
+body .wrapper .items .item .products .productsImages .productsImagesOne img {
+  width: 504px;
+  height: 496px;
+}
+body .wrapper .items .item .products .productsEnof {
+  display: flex;
+  gap: 40px;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .price {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .price .priceAdd {
+  display: flex;
+  align-items: center;
+  gap: 113px;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .price .priceAdd .priceOne {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  color: #606060;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .price .priceAdd .priceTwo {
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 36px;
+  color: #414141;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .price .priceInfo {
+  display: flex;
+  align-items: center;
+  gap: 131px;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .price .priceInfo .priceInfoOne {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  color: #bfbfbf;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .price .priceInfo .priceInfoTwo {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  color: #bfbfbf;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .productsEnofBuyAdd {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .productsEnofBuyAdd .buy {
+  width: 376px;
+  height: 60px;
+  display: flex;
+  gap: 8px;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: #ff6633;
+  justify-content: center;
+  align-content: center;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .productsEnofBuyAdd .bonus {
+  width: 212px;
+  height: 32px;
+  display: flex;
+  gap: 8px;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  color: #70c05b;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .productsEnofBuyAdd .yved {
+  width: 248px;
+  height: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 4px;
+  padding: 8px;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  text-align: center;
+  vertical-align: middle;
+  color: #606060;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .aboutProduct {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 16px;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .aboutProduct .brand {
+  width: 376px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3f2f1;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .aboutProduct .brand p {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  color: #414141;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .aboutProduct .brand h5 {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #414141;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .aboutProduct .contry {
+  width: 376px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .aboutProduct .contry p {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  color: #414141;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .aboutProduct .contry h5 {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #414141;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .aboutProduct .pacage {
+  width: 376px;
+  height: 26px;
+  display: flex;
+  text-align: center;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f3f2f1;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .aboutProduct .pacage p {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  color: #414141;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofBuy .aboutProduct .pacage h5 {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #414141;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofProductsBlock {
+  width: 168px;
+  height: 496px;
+  display: flex;
+  gap: 8px;
+  flex-direction: column;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofProductsBlock .productsEnofProducts h4 {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 16px;
+  color: #606060;
+  text-align: start;
+  padding-bottom: 8px;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofProductsBlock .productsEnofProducts .photorem {
+  width: 168px;
+  height: 104px;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+body .wrapper .items .item .products .productsEnof .productsEnofProductsBlock .productsEnofProducts .photorem p {
+  padding: 10px 10px;
+  font-family: "Rubik";
+  font-weight: 700;
+  font-size: 18px;
+  color: #414141;
+}
+body .img-bg-footer {
+  height: 126px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .img-bg-footer .bg-footer {
+  width: 100%;
+}
+body .img-bg-footer .navs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 126px;
+}
+body .img-bg-footer .navs nav {
+  position: absolute;
+  left: 116px;
+  bottom: 100px;
+}
+body .img-bg-footer .navs nav .footerLi1 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+body .img-bg-footer .navs nav .footerLi1 li a {
+  color: #414141;
+  text-decoration: none;
+}
+body .img-bg-footer .navs .footerNav {
+  position: absolute;
+  right: 35%;
+}
+body .img-bg-footer .navs .footerNav .footerLi2 {
+  position: absolute;
+  left: 872px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+body .img-bg-footer .phone {
+  position: absolute;
+  top: -100px;
+  left: 1160px;
+  display: flex;
+  text-align: center;
+}
+body .img-bg-footer .phone span {
+  font-family: "Rubik";
+}
+body .img-bg-footer .end {
+  position: absolute;
+  top: -40px;
+  left: 1160px;
+}/*# sourceMappingURL=cart.css.map */
