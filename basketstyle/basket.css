@@ -136,9 +136,22 @@ main {
   display: flex;
   left: 140px;
 }
+main .glava {
+  display: flex;
+}
+main .glava img {
+  position: absolute;
+  left: 90px;
+  top: 24px;
+}
 main .glava a {
   color: black;
   text-decoration: none;
+}
+main .glava span {
+  opacity: 50%;
+  margin-left: 35px;
+  margin-top: 1px;
 }
 main .badge2 {
   padding: 5px 10px;
@@ -155,7 +168,7 @@ main .badge2 h1 {
 main .badge2 h1 .badge {
   background: rgb(232, 6, 6);
   color: white;
-  border-radius: 50%;
+  border-radius: 40%;
   position: absolute;
 }
 main .cart {
@@ -170,7 +183,6 @@ main .cart {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 30px;
 }
 main .cart .cart-item {
   display: flex;
@@ -178,6 +190,7 @@ main .cart .cart-item {
   justify-content: space-between;
   padding: 10px 0;
   border-bottom: 1px solid #ddd;
+  gap: 30px;
 }
 main .cart .cart-item img {
   width: 50px;

@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const cartBadge = document.querySelector(".badge");
   const cartContainer = document.querySelector(".cart");
-  const totalPriceElement = document.querySelector(".summary h1"); // Исправленный селектор
+  const totalPriceElement = document.querySelector(".summary h1");
   const discountElement = document.querySelector(".summary .discount");
   const minOrderWarning = document.querySelector(".summary .warning");
   const orderButton = document.querySelector(".checkout");
