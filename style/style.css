@@ -84,8 +84,8 @@ body .mainWrapper .afterHeaderPhoto .h1 h1 {
   color: hsl(0, 0%, 25%);
 }
 body .mainWrapper .Products {
-  width: 100%;
-  height: 1400px;
+  width: 1440px;
+  height: 1440px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -238,16 +238,91 @@ body .mainWrapper .Products .product-list .product .inCartButton:hover {
   border: 1px solid #ff6633;
   background-color: #ff6633;
 }
-body .mainWrapper .img-bg-footer {
+body .mainWrapper .offers .wrapper-offers {
+  width: 100%;
+  height: 294px;
+  display: flex;
+  flex: 2;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+body .mainWrapper .offers .wrapper-offers .WrapperOfferH2 {
+  position: absolute;
+  top: 1725px;
+  padding-right: 865px;
+  display: flex;
+  justify-content: start;
+  justify-content: start;
+}
+body .mainWrapper .offers .wrapper-offers .offers-bycard {
+  border-radius: 4px;
+  width: 584px;
+  display: flex;
+  justify-content: space-between;
+  height: 200px;
+  background-color: #fcd5ba;
+}
+body .mainWrapper .offers .wrapper-offers .offers-bycard .offers-byCard-Text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  padding-left: 40px;
+  gap: 6px;
+}
+body .mainWrapper .offers .wrapper-offers .offers-bycard .offers-byCard-Text h3 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #414141;
+}
+body .mainWrapper .offers .wrapper-offers .offers-bycard .offers-byCard-Text p {
+  font-size: 15px;
+  color: #414141;
+}
+body .mainWrapper .offers .wrapper-offers .offers-sales {
+  display: flex;
+  background-color: #e5ffde;
+  border-radius: 4px;
+  width: 584px;
+  justify-content: space-between;
+  height: 200px;
+}
+body .mainWrapper .offers .wrapper-offers .offers-sales .offers-SalesText {
+  padding-left: 40px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: start;
+  gap: 6px;
+  color: #414141;
+  font-size: 24px;
+  font-weight: 700;
+}
+body .mainWrapper .offers .wrapper-offers .offers-sales p {
+  color: #414141;
+  font-size: 15px;
+}
+body .mainWrapper .map-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+}
+body .mainWrapper .map-section .wrapperMap h2 {
+  margin-bottom: 70px;
+}
+body .img-bg-footer {
   height: 126px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
-body .mainWrapper .img-bg-footer .bg-footer {
+body .img-bg-footer .bg-footer {
   width: 100%;
 }
-body .mainWrapper .img-bg-footer .navs {
+body .img-bg-footer .navs {
   position: relative;
   display: flex;
   align-items: center;
@@ -255,12 +330,12 @@ body .mainWrapper .img-bg-footer .navs {
   width: 100%;
   height: 126px;
 }
-body .mainWrapper .img-bg-footer .navs nav {
+body .img-bg-footer .navs nav {
   position: absolute;
   left: 116px;
   bottom: 100px;
 }
-body .mainWrapper .img-bg-footer .navs nav .footerLi1 {
+body .img-bg-footer .navs nav .footerLi1 {
   position: absolute;
   display: flex;
   flex-direction: row;
@@ -268,15 +343,15 @@ body .mainWrapper .img-bg-footer .navs nav .footerLi1 {
   gap: 50px;
   list-style: none;
 }
-body .mainWrapper .img-bg-footer .navs nav .footerLi1 li a {
+body .img-bg-footer .navs nav .footerLi1 li a {
   color: #414141;
   text-decoration: none;
 }
-body .mainWrapper .img-bg-footer .navs .footerNav {
+body .img-bg-footer .navs .footerNav {
   position: absolute;
   right: 35%;
 }
-body .mainWrapper .img-bg-footer .navs .footerNav .footerLi2 {
+body .img-bg-footer .navs .footerNav .footerLi2 {
   position: absolute;
   left: 872px;
   display: flex;
@@ -284,14 +359,17 @@ body .mainWrapper .img-bg-footer .navs .footerNav .footerLi2 {
   gap: 20px;
   align-items: center;
 }
-body .mainWrapper .img-bg-footer .phone {
+body .img-bg-footer .phone {
   position: absolute;
   top: -100px;
   left: 1160px;
   display: flex;
   text-align: center;
 }
-body .mainWrapper .img-bg-footer .end {
+body .img-bg-footer .phone span {
+  padding-left: 8px;
+}
+body .img-bg-footer .end {
   position: absolute;
   top: -40px;
   left: 1160px;
