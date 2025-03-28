@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/style/basketstyle/basket.css" />
+    <link
+    rel="icon"
+    href="https://cdn-icons-png.flaticon.com/128/869/869457.png"
+    type="image/x-icon"
+  />
+  </head>
+  <body>
+    <header>
+      <button id="header-Button" type="button">
+        <a href="/html/main.html">
+          <img class="logo-header" src="/photo/logoheader.svg" alt="logoheader" />
+        </a>
+      </button>
+
+      <div class="input-button-container">
+        <input type="text" name="searcher" placeholder="Найти товар" />
+        <button type="button">
+          <img src="/photo/search.svg" alt="searching" />
+        </button>
+      </div>
+      <button id="Heart-page" type="button">
+        <div class="heart-cont">
+          <img src="/photo/Heart.svg" alt="heart" />
+          <p>Избранное</p>
+        </div>
+      </button>
+
+      <button id="Cart-page" type="button">
+        <div class="cart-cont">
+          <a href="./basket.html">
+            <img src="/photo/shopping-cart.svg" alt="cart"
+          /></a>
+          <p>Корзина</p>
+        </div>
+      </button>
+    </header>
+
+    <main>
+      <div class="glava">
+        <a href="/html/main.html"><p>Главная</p></a>
+      </div>
+      <div class="badge2">
+        <h1>Корзина <span class="badge">3</span></h1>
+      </div>
+
+      <div class="cart">
+        <div class="cart-item">
+          <input type="checkbox" checked />
+          <img src="product.jpg" alt="Товар" />
+          <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+          <div class="price">44,50 ₽ за шт.</div>
+          <div class="quantity">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+          <div class="total-price">89,00 ₽</div>
+        </div>
+
+        <div class="cart-item discount">
+          <input type="checkbox" checked />
+          <img src="product.jpg" alt="Товар" />
+          <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+          <div class="price">
+            <span class="old-price">50,50 ₽</span> 44,50 ₽ за шт.
+          </div>
+          <div class="discount-tag">-10%</div>
+          <div class="quantity">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+          <div class="total-price">80,10 ₽</div>
+        </div>
+
+        <div class="cart-item">
+          <input type="checkbox" checked />
+          <img src="product.jpg" alt="Товар" />
+          <p>Комбайн КЗС-1218 «ДЕСНА-ПОЛЕСЬЕ GS12»</p>
+          <div class="price">44,50 ₽ за шт.</div>
+          <div class="quantity">
+            <button>-</button>
+            <span>1</span>
+            <button>+</button>
+          </div>
+          <div class="total-price">89,00 ₽</div>
+        </div>
+      </div>
+
+      <section class="summary">
+        <div class="result3">
+          <input type="checkbox" checked />
+          <p>Списать 200 ₽</p>
+        </div>
+        <div class="result2">
+          <p>На карте накоплено:</p>
+          <span>200 ₽</span>
+        </div>
+
+        <div class="result1">
+          <p>Скидка:</p>
+          <span class="discount">-8,01 ₽</span>
+        </div>
+        <div class="result">
+          <p>Итого:</p>
+          <h1>250,09 ₽</h1>
+        </div>
+        <p class="bonus">Вы получите 100 бонусов</p>
+        <p class="warning">Минимальная сумма заказа 1000 ₽</p>
+        <button class="checkout">Оформить заказ</button>
+      </section>
+    </main>
+    <footer>
+      <div class="img-bg-footer">
+        <img class="bg-footer" src="/photo/bg.svg" alt="" />
+        <div class="navs">
+          <nav>
+            <ul class="footerLi1">
+              <li>
+                <a href=""><img src="/photo/logo(1).svg" alt="" /></a>
+              </li>
+              <li><a href="">О компании</a></li>
+              <li><a href="">Контакты</a></li>
+              <li><a href="">Вакансии</a></li>
+            </ul>
+          </nav>
+          <nav class="footer">
+            <ul class="footerLi2">
+              <a href=""><img src="/photo/Group 469.svg" alt="" /></a>
+
+              <a href=""><img src="/photo/Wk.svg" alt="" /></a>
+
+              <a href=""><img src="/photo/Group 465.svg" alt="" /></a>
+
+              <a href=""><img src="/photo/Vector.svg" alt="" /></a>
+            </ul>
+          </nav>
+          <div class="phone">
+            <img src="/photo/Vector 188 (Stroke).svg" alt="" />
+            <span>8 800 777 33 33</span>
+          </div>
+          <div class="end">
+            <p>
+              Дизайн
+              <img src="/photo/logo-zasovskiy-small-black.svg" alt="" />
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/js/basket.js" defer></script>
+  </body>
+</html>
