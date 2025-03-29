@@ -10,6 +10,9 @@ const renderProducts = () => {
     const productElement = document.createElement("div");
     productElement.classList.add("product");
     productElement.innerHTML = `
+    <div class="productsSales">
+     ${product.categoryAll ? `<h2>${product.categoryAll}</h2>` : ""}
+    </div>
       <div class="cont-img">
         <button class="product-heart">
           <img src="/photo/Button.svg" alt="" />
