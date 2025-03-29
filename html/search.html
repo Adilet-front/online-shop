@@ -3,34 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="/style/ВсеАкции/ВсеАкции.css" />
-    <title>Document</title>
+    <title>СЕВЕРЯНОЧКА</title>
     <link
       rel="icon"
       href="https://cdn-icons-png.flaticon.com/128/869/869457.png"
       type="image/x-icon"
     />
+    <link rel="stylesheet" href="/style/search/search.css" />
   </head>
   <body>
     <div class="mainWrapper">
       <!-- header -->
       <header>
         <button id="header-Button">
-        <a href="/html/main.html">
-
-          <img
-            class="logo-header"
-            src="/photo/logoheader.svg"
-            alt="logoheader"
-          />
-        </a>
+          <a href="/html/main.html">
+            <img
+              class="logo-header"
+              src="/photo/logoheader.svg"
+              alt="logoheader"
+            />
+          </a>
         </button>
-
         <div class="input-button-container">
-          <input type="text" name="searcher" placeholder="Найти товар" />
-          <button type="button">
-            <img src="/photo/search.svg" alt="searching" />
-          </button>
+          <input
+            type="search"
+            id="search"
+            placeholder="Найти товар"
+            data-search=""
+          />
+
+          <a href="/html/search.html">
+            <button type="button">
+              <img src="/photo/search.svg" alt="searching" />
+            </button>
+          </a>
         </div>
         <button id="Heart-page" type="button">
           <div class="heart-cont">
@@ -41,24 +47,18 @@
 
         <button id="Cart-page" type="button">
           <div class="cart-cont">
-            <img src="/photo/shopping-cart.svg" alt="cart" />
+            <a href="basket.html"
+              ><img src="/photo/shopping-cart.svg" alt="cart"
+            /></a>
             <p>Корзина</p>
           </div>
         </button>
       </header>
+
+      <a href="/html/cart.html">add</a>
       <div class="Products">
-        <div class="productsSales">
-          <h2>Акции</h2>
-        </div>
-
-
-        <div class="product-list"></div>
-
-
+        <div class="product-list" data-product-cards-container=""></div>
       </div>
-
-      <section class="offers"></section>
-      <section class="map"></section>
 
       <footer>
         <div class="img-bg-footer">
@@ -100,7 +100,6 @@
       </footer>
     </div>
 
-    <div class="product-list"></div>
-    <script src="/js/акции/ВсеАкции.js"></script>
+    <script src="/js/main.js"></script>
   </body>
 </html>

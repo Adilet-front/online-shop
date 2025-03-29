@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/style/style.css" />
   </head>
   <body>
+
     <div class="mainWrapper">
       <!-- header -->
       <header>
@@ -24,12 +25,18 @@
             />
           </a>
         </button>
-
         <div class="input-button-container">
-          <input type="text" name="searcher" placeholder="Найти товар" />
-          <button type="button">
-            <img src="/photo/search.svg" alt="searching" />
-          </button>
+          <input
+            type="search"
+            id="search"
+            placeholder="Найти товар"
+            data-search=""
+          />
+          <a href="/html/search.html">
+            <button type="button">
+              <img src="/photo/search.svg" alt="searching" />
+            </button>
+          </a>
         </div>
         <button id="Heart-page" type="button">
           <div class="heart-cont">
@@ -40,12 +47,15 @@
 
         <button id="Cart-page" type="button">
           <div class="cart-cont">
-           <a href="basket.html"><img src="/photo/shopping-cart.svg" alt="cart" /></a> 
+            <a href="basket.html"
+              ><img src="/photo/shopping-cart.svg" alt="cart"
+            /></a>
             <p>Корзина</p>
           </div>
         </button>
       </header>
-      <a href="/html/cart.html">add</a>
+
+    
       <div class="afterHeaderPhoto">
         <div class="h1">
           <h1>Доставка бесплатно от 1000 ₽</h1>
@@ -84,15 +94,14 @@
             /></a>
           </button>
         </div>
-        <div class="product-list"></div>
+        <div class="product-list" data-product-cards-container=""></div>
       </div>
 
       <section class="offers">
         <div class="wrapper-offers">
           <div class="WrapperOfferH2">
-      <h2>Специальные предложения</h2>
-    </div>
-
+            <h2>Специальные предложения</h2>
+          </div>
 
           <div class="offers-bycard">
             <div class="offers-byCard-Text">
@@ -107,8 +116,11 @@
 
           <div class="offers-sales">
             <div class="offers-SalesText">
-              <h3>Покупайте<br>акционные товары</h3>
-              <p>И получайте вдвое больше<br> бонусов</p>
+              <h3>Покупайте<br />акционные товары</h3>
+              <p>
+                И получайте вдвое больше<br />
+                бонусов
+              </p>
             </div>
 
             <div class="ofersSalesImg">
@@ -121,10 +133,17 @@
         <div class="wrapperMap">
           <h2>Наши магазины</h2>
           <div class="map">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d919159.145624687!2d44.14883344603082!3d63.971707265132615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4474d64401097959%3A0xd00e96cd0efb2a9a!2zQWRkcmVzcyDRgdGH0LDRgdGC0YzRjw!5e0!3m2!1sru!2skg!4v1743059825143!5m2!1sru!2skg" width="1208" height="354" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d919159.145624687!2d44.14883344603082!3d63.971707265132615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4474d64401097959%3A0xd00e96cd0efb2a9a!2zQWRkcmVzcyDRgdGH0LDRgdGC0YzRjw!5e0!3m2!1sru!2skg!4v1743059825143!5m2!1sru!2skg"
+              width="1208"
+              height="354"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
-
       </section>
 
       <footer>
