@@ -13,7 +13,6 @@ body {
 
   .mainWrapper {
     header {
-      
       #header-Button {
         margin-left: 116px;
         background-color: #ffffff;
@@ -107,6 +106,7 @@ body {
       .productsSales {
         width: 1208px;
         position: absolute;
+        top: 50px;
         display: flex;
         justify-content: space-between;
 
@@ -172,7 +172,6 @@ body {
         gap: 40px;
 
         .product {
-          margin-top: 100px;
           width: 272px;
           height: 349px;
           border-radius: 4px;
@@ -258,6 +257,7 @@ body {
           display: none;
         }
       }
+    
     }
     .offers {
       .wrapper-offers {

@@ -97,6 +97,7 @@ body .mainWrapper .Products {
 body .mainWrapper .Products .productsSales {
   width: 1208px;
   position: absolute;
+  top: 50px;
   display: flex;
   justify-content: space-between;
 }
@@ -161,7 +162,6 @@ body .mainWrapper .Products .product-list {
   gap: 40px;
 }
 body .mainWrapper .Products .product-list .product {
-  margin-top: 100px;
   width: 272px;
   height: 349px;
   border-radius: 4px;
@@ -376,4 +376,4 @@ body .img-bg-footer .end {
   position: absolute;
   top: -40px;
   left: 1160px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=search.css.map */
