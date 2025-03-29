@@ -13,7 +13,6 @@ body {
 
   .mainWrapper {
     header {
-      
       #header-Button {
         margin-left: 116px;
         background-color: #ffffff;
@@ -94,7 +93,7 @@ body {
     }
 
     .Products {
-      width: 1440px;
+      width: 100%;
       height: 100%;
       display: flex;
       align-items: center;
@@ -106,10 +105,11 @@ body {
 
       .productsSales {
         width: 1208px;
-        position: absolute;
         display: flex;
         justify-content: space-between;
-
+        h2 {
+          margin-top: -50px;
+        }
         button {
           background-color: #fbf8ec;
           cursor: pointer;
@@ -127,7 +127,7 @@ body {
       .productsNeewss {
         position: absolute;
         width: 1208px;
-        top: 470px;
+        top: 900px;
         display: flex;
         justify-content: space-between;
         button {
@@ -147,7 +147,7 @@ body {
       .productsBoughtBefore {
         position: absolute;
         width: 1208px;
-        top: 885px;
+        top: 1200px;
         display: flex;
         justify-content: space-between;
         button {
@@ -338,8 +338,6 @@ body {
       .wrapperMap {
         h2 {
           margin-bottom: 70px;
-        }
-        .map {
         }
       }
     }
