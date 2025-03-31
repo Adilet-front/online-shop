@@ -17,7 +17,7 @@ const renderProducts = () => {
         <button class="product-heart">
           <img src="/photo/Button.svg" alt="" />
         </button>
-       <a href="/html/cart.html">
+       <a id="${product.id}" class="linkCart" href="/html/cart.html">
         <img src="${product.imageUrl}" alt=""/>
         ${product.discount ? `<p class="p-sale">-${product.discount}%</p>` : ""}
       </a>
@@ -45,9 +45,19 @@ const renderProducts = () => {
     productList.appendChild(productElement);
   });
 
+  document.querySelectorAll(".linkCart").forEach((button) => {
+    button.addEventListener("click", (event) => {
+      const productId = button.id;
+      console.log(productId);
+      
+      addDetail(productId);
+    });
+  });
+
   document.querySelectorAll(".inCartButton").forEach((button) => {
     button.addEventListener("click", (event) => {
       const productId = event.target.getAttribute("data-id");
+      
       addToCart(productId);
     });
   });
@@ -57,11 +67,21 @@ searchInput.addEventListener("input", (e) => {
   const value = e.target.value.toLowerCase();
 
   document.querySelectorAll(".product").forEach((card) => {
-    const productName = card.querySelector(".product-name").textContent.toLowerCase();
+    const productName = card
+      .querySelector(".product-name")
+      .textContent.toLowerCase();
     card.classList.toggle("hide", !productName.includes(value));
   });
 });
 
+const addDetail = (id) => {
+  let cart = JSON.parse(localStorage.getItem("detail")) || [];
+  let product = products.find((p) => p.id == id);
+
+  if (!product) return;
+
+  localStorage.setItem("detail", JSON.stringify(product));
+};
 
 const addToCart = (id) => {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];
