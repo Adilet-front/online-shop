@@ -81,11 +81,11 @@ document.addEventListener("DOMContentLoaded", () => {
       if (totalWithDiscount >= 1000) {
         minOrderWarning.style.display = "none";
         orderButton.disabled = false;
-        orderButton.style.backgroundColor = "#FFA500";
+        orderButton.style.backgroundColor = "#FF6633";
       } else {
         minOrderWarning.style.display = "block";
         orderButton.disabled = true;
-        orderButton.style.backgroundColor = "#ccc";
+        orderButton.style.backgroundColor = "red";
       }
     }
 

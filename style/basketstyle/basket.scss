@@ -179,10 +179,14 @@ main {
       top: 50px;
 
       .badge {
-        background: rgb(232, 6, 6);
+        background: #FF6633;
         color: white;
-        border-radius: 40%;
+        border-radius: 20%;
         position: absolute;
+        height: 25px;
+      }
+      span{
+        font-size: 24px;
       }
     }
   }
@@ -224,7 +228,7 @@ main {
       }
 
       .discount-tag {
-        background: red;
+        background: #FF6633;
         color: white;
         padding: 2px 5px;
         font-size: 12px;
@@ -235,14 +239,20 @@ main {
         display: flex;
         align-items: center;
         gap: 5px;
+         background-color: #70C05B;
+       
+         
 
         button {
-          background-color: #0dff00;
+          background-color: #70C05B;
           color: white;
           border: none;
           padding: 5px 10px;
           cursor: pointer;
+          border-radius: 15px;
+          
         }
+       
       }
 
       .total-price {
@@ -267,18 +277,27 @@ main {
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
+      p{
+        opacity: 50%;
+      }   
     }
     .result1 {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
+      p{
+        opacity: 50%;
+      }
     }
     .result2 {
       display: flex;
       flex-direction: row;
       align-items: center;
       justify-content: space-between;
+      p{
+        opacity: 50%;
+      }
     }
     .result3 {
       display: flex;
