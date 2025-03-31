@@ -183,3 +183,61 @@ const startApp = () => {
 };
 
 startApp();
+
+
+
+document.addEventListener("DOMContentLoaded", () => {
+  let detail = JSON.parse(localStorage.getItem("detail")) || {};
+
+  const title = document.querySelector(".cartInfo p");
+  const price = document.querySelector(".priceTwo");
+  const oldPrice = document.querySelector(".priceOne");
+  const imageUrl = document.querySelector(".productsImagesOne img");
+  const brand = document.querySelector(".brand h5");
+  const pacage = document.querySelector(".pacage h5");
+  const rating = document.querySelector(".rating");
+  const watchingPhoto = document.querySelector(".productsImagesBlock");
+  const buyButton = document.querySelector(".buy"); 
+
+  if (detail) {
+    title.textContent = detail.name;
+    price.textContent = detail.price;
+    oldPrice.textContent = detail.oldPrice;
+    imageUrl.src = detail.imageUrl;
+    brand.textContent = detail.brand;
+    pacage.textContent = detail.package;
+
+    rating.innerHTML =
+      detail.rating.map((star) => `<img src="${star}" alt="star" />`).join("") +
+      `<p class="otz"><a href="#">3 отзыва</a></p>`;
+
+    watchingPhoto.innerHTML = detail["watching-photo"]
+      .map((photo) => `<img src="${photo}" alt="productsImagesblock" />`)
+      .join("");
+  }
+
+
+  buyButton.addEventListener("click", () => {
+    let cart = JSON.parse(localStorage.getItem("cart")) || [];
+
+ 
+    let existingItem = cart.find((item) => item.name === detail.name);
+
+    if (existingItem) {
+      existingItem.quantity += 1; 
+    } else {
+      cart.push({
+        name: detail.name,
+        price: detail.price,
+        oldPrice: detail.oldPrice,
+        imageUrl: detail.imageUrl,
+        brand: detail.brand,
+        package: detail.package,
+        quantity: 1,
+      });
+    }
+
+    localStorage.setItem("cart", JSON.stringify(cart));
+    alert("Товар добавлен в корзину!");
+  });
+});
