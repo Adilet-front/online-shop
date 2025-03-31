@@ -13,15 +13,27 @@
   </head>
   <body>
     <header>
-      <button id="header-Button" type="button">
-        <img class="logo-header" src="/photo/logoheader.svg" alt="logoheader" />
+      <button id="header-Button">
+        <a href="/html/main.html">
+          <img
+            class="logo-header"
+            src="/photo/logoheader.svg"
+            alt="logoheader"
+          />
+        </a>
       </button>
-
       <div class="input-button-container">
-        <input type="text" name="searcher" placeholder="Найти товар" />
-        <button type="button">
-          <img src="/photo/search.svg" alt="searching" />
-        </button>
+        <input
+          type="search"
+          id="search"
+          placeholder="Найти товар"
+          data-search=""
+        />
+        <a href="/html/search.html">
+          <button type="button">
+            <img src="/photo/search.svg" alt="searching" />
+          </button>
+        </a>
       </div>
       <button id="Heart-page" type="button">
         <div class="heart-cont">
@@ -32,12 +44,15 @@
 
       <button id="Cart-page" type="button">
         <div class="cart-cont">
-          <img src="/photo/shopping-cart.svg" alt="cart" />
+          <a href="basket.html"
+            ><img src="/photo/shopping-cart.svg" alt="cart"
+          /></a>
           <p>Корзина</p>
         </div>
       </button>
     </header>
-    <div class="items">
+    
+    <!-- <div class="items">
       <div class="carts">
         <div class="cartInfo">
           <p></p>
@@ -45,7 +60,7 @@
         </div>
         <div class="cart"></div>
       </div>
-    </div>
+    </div> -->
 
     <div class="wrapper">
       <div class="items">
@@ -149,33 +164,7 @@
                   </div>
                 </div>
               </div>
-              <div class="productsEnofProductsBlock">
-                <div class="productsEnofProducts">
-                  <h4>Похожие</h4>
-                  <div class="photorem">
-                    <img src="/photo/photoprem.png" alt="photoprem" />
-                    <p>157,50₽</p>
-                  </div>
-                </div>
-                <div class="productsEnofProducts">
-                  <div class="photorem">
-                    <img src="/photo/photoprem.png" alt="photoprem" />
-                    <p>157,50₽</p>
-                  </div>
-                </div>
-                <div class="productsEnofProducts">
-                  <div class="photorem">
-                    <img src="/photo/photoprem.png" alt="photoprem" />
-                    <p>157,50₽</p>
-                  </div>
-                </div>
-                <div class="productsEnofProducts">
-                  <div class="photorem">
-                    <img src="/photo/photoprem.png" alt="photoprem" />
-                    <p>157,50₽</p>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
         </div>
