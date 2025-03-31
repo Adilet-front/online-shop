@@ -62,6 +62,7 @@ const addToCart = (id) => {
   localStorage.setItem("cart", JSON.stringify(cart));
 };
 
+
 const startApp = () => {
   fetch(url)
     .then((res) => res.json())
