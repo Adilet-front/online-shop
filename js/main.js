@@ -1,5 +1,6 @@
 const url = "http://localhost:3000/products";
 const productList = document.querySelector(".product-list");
+const searchInput = document.querySelector("[data-search]");
 
 let products = [];
 
@@ -9,12 +10,18 @@ const renderProducts = () => {
     const productElement = document.createElement("div");
     productElement.classList.add("product");
     productElement.innerHTML = `
+    <div class="productsSales">
+     ${product.categoryAll ? `<h2>${product.categoryAll}</h2>` : ""}
+    </div>
       <div class="cont-img">
         <button class="product-heart">
           <img src="/photo/Button.svg" alt="" />
         </button>
+       <a href="/html/cart.html">
         <img src="${product.imageUrl}" alt=""/>
         ${product.discount ? `<p class="p-sale">-${product.discount}%</p>` : ""}
+      </a>
+        
       </div>
 
       <div class="prices">
@@ -28,7 +35,7 @@ const renderProducts = () => {
         </div>
       </div>
 
-      <span>${product.name}</span>
+      <span class="product-name" data-header>${product.name}</span>
 
       <div class="stars">
         ${product.rating.map((el) => `<img src="${el}" />`).join(" ")}
@@ -45,6 +52,16 @@ const renderProducts = () => {
     });
   });
 };
+
+searchInput.addEventListener("input", (e) => {
+  const value = e.target.value.toLowerCase();
+
+  document.querySelectorAll(".product").forEach((card) => {
+    const productName = card.querySelector(".product-name").textContent.toLowerCase();
+    card.classList.toggle("hide", !productName.includes(value));
+  });
+});
+
 
 const addToCart = (id) => {
   let cart = JSON.parse(localStorage.getItem("cart")) || [];

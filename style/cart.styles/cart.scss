@@ -66,7 +66,7 @@ body {
     background-color: #fbf8ec;
     .items {
       width: 1208px;
-      height: 1722px;
+      height: 100%;
       display: flex;
       flex-direction: column;
       gap: 120px;
@@ -370,6 +370,178 @@ body {
         }
       }
     }
+// Карточки
+
+    .Products {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: start;
+      flex-direction: column;
+      flex: 4;
+      gap: 40px;
+      position: relative;
+
+      .productsSales {
+        width: 1208px;
+        display: flex;
+        justify-content: space-between;
+        h2 {
+          margin-top: -50px;
+        }
+        button {
+          background-color: #fbf8ec;
+          cursor: pointer;
+          display: flex;
+          gap: 16px;
+          a {
+            text-decoration: none;
+            color: #606060;
+          }
+          img {
+            color: #606060;
+          }
+        }
+      }
+      .productsNeewss {
+        position: absolute;
+        width: 1208px;
+        top: 900px;
+        display: flex;
+        justify-content: space-between;
+        button {
+          background-color: #fbf8ec;
+          cursor: pointer;
+          display: flex;
+          gap: 16px;
+          a {
+            text-decoration: none;
+            color: #606060;
+          }
+          img {
+            color: #606060;
+          }
+        }
+      }
+      .productsBoughtBefore {
+        position: absolute;
+        width: 1208px;
+        top: 1200px;
+        display: flex;
+        justify-content: space-between;
+        button {
+          background-color: #fbf8ec;
+          cursor: pointer;
+          display: flex;
+          gap: 16px;
+          a {
+            text-decoration: none;
+            color: #606060;
+          }
+          img {
+            color: #606060;
+          }
+        }
+      }
+      .product-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 40px;
+
+        .product {
+          margin-top: 100px;
+          width: 272px;
+          height: 349px;
+          border-radius: 4px;
+          background-color: #ffffff;
+          padding: 8px;
+          display: flex;
+          gap: 8px;
+          flex-direction: column;
+          margin-bottom: 30px;
+
+          .p-sale {
+            position: absolute;
+            top: 110px;
+            background-color: #ff6633;
+            width: 56px;
+            height: 32px;
+            color: #ffffff;
+            font-size: 16px;
+            border-radius: 4px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+
+          .prices {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            font-size: 16px;
+            line-height: 150%;
+            .weight {
+              font-weight: 700;
+            }
+            .cash {
+              color: #606060;
+            }
+            .by-cash-p {
+              color: #bfbfbf;
+              font-size: 12px;
+            }
+          }
+
+          .product-heart {
+            position: absolute;
+            right: 10px;
+            opacity: 0.5;
+            top: 10px;
+            border-radius: 4px;
+          }
+          .cont-img {
+            position: relative;
+            width: 100%;
+            height: 160px;
+            overflow: hidden;
+            img {
+              object-fit: cover;
+              width: 100%;
+              height: 100%;
+            }
+          }
+          .stars {
+            img {
+              width: 16px;
+              height: 16px;
+            }
+          }
+          .inCartButton {
+            width: 256px;
+            height: 40px;
+            border-radius: 4px;
+            color: #70c05b;
+            border: 1px solid #70c05b;
+            background-color: #ffffff;
+          }
+          .inCartButton:hover {
+            color: #ffffff;
+            border: 1px solid #ff6633;
+
+            background-color: #ff6633;
+          }
+        }
+        .hide {
+          display: none;
+        }
+      }
+    }
+    
+
+
   }
 
   .img-bg-footer {

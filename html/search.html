@@ -9,7 +9,7 @@
       href="https://cdn-icons-png.flaticon.com/128/869/869457.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="/style/style.css" />
+    <link rel="stylesheet" href="/style/search/search.css" />
   </head>
   <body>
     <div class="mainWrapper">
@@ -31,21 +31,19 @@
             placeholder="Найти товар"
             data-search=""
           />
+
           <a href="/html/search.html">
             <button type="button">
               <img src="/photo/search.svg" alt="searching" />
             </button>
           </a>
         </div>
-        <a href="/html/favorite.html">
-          <button id="Heart-page" type="button">
-            <div class="heart-cont">
-              <img src="/photo/Heart.svg" alt="heart" />
-              <p>Избранное</p>
-            </div>
-          </button>
-        </a>
-       
+        <button id="Heart-page" type="button">
+          <div class="heart-cont">
+            <img src="/photo/Heart.svg" alt="heart" />
+            <p>Избранное</p>
+          </div>
+        </button>
 
         <button id="Cart-page" type="button">
           <div class="cart-cont">
@@ -57,64 +55,10 @@
         </button>
       </header>
 
-      <div class="afterHeaderPhoto">
-        <div class="h1">
-          <h1>Доставка бесплатно от 1000 ₽</h1>
-        </div>
-        <img src="/photo/Group 7100.svg" alt="" />
-
-        <div class="imgIn">
-          <img src="/photo/img.svg" alt="" />
-        </div>
-      </div>
+      <a href="/html/cart.html">add</a>
       <div class="Products">
         <div class="product-list" data-product-cards-container=""></div>
       </div>
-
-      <section class="offers">
-        <div class="wrapper-offers">
-          <div class="offers-bycard">
-            <div class="offers-byCard-Text">
-              <h3>Оформите карту «Северяночка»</h3>
-              <p>И получайте бонусы при покупке в магазинах и на сайте</p>
-            </div>
-
-            <div class="offersImgByCard">
-              <img src="/photo/Карта лояльности-10 1.svg" alt="" />
-            </div>
-          </div>
-
-          <div class="offers-sales">
-            <div class="offers-SalesText">
-              <h3>Покупайте<br />акционные товары</h3>
-              <p>
-                И получайте вдвое больше<br />
-                бонусов
-              </p>
-            </div>
-
-            <div class="ofersSalesImg">
-              <img src="/photo/73 1.svg" alt="" />
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="map-section">
-        <div class="wrapperMap">
-          <h2>Наши магазины</h2>
-          <div class="map">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d919159.145624687!2d44.14883344603082!3d63.971707265132615!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4474d64401097959%3A0xd00e96cd0efb2a9a!2zQWRkcmVzcyDRgdGH0LDRgdGC0YzRjw!5e0!3m2!1sru!2skg!4v1743059825143!5m2!1sru!2skg"
-              width="1208"
-              height="354"
-              style="border: 0"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-            ></iframe>
-          </div>
-        </div>
-      </section>
 
       <footer>
         <div class="img-bg-footer">

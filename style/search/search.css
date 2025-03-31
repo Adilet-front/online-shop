@@ -84,7 +84,7 @@ body .mainWrapper .afterHeaderPhoto .h1 h1 {
   color: hsl(0, 0%, 25%);
 }
 body .mainWrapper .Products {
-  width: 100%;
+  width: 1440px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -96,11 +96,10 @@ body .mainWrapper .Products {
 }
 body .mainWrapper .Products .productsSales {
   width: 1208px;
+  position: absolute;
+  top: 50px;
   display: flex;
   justify-content: space-between;
-}
-body .mainWrapper .Products .productsSales h2 {
-  margin-top: -50px;
 }
 body .mainWrapper .Products .productsSales button {
   background-color: #fbf8ec;
@@ -118,7 +117,7 @@ body .mainWrapper .Products .productsSales button img {
 body .mainWrapper .Products .productsNeewss {
   position: absolute;
   width: 1208px;
-  top: 900px;
+  top: 470px;
   display: flex;
   justify-content: space-between;
 }
@@ -138,7 +137,7 @@ body .mainWrapper .Products .productsNeewss button img {
 body .mainWrapper .Products .productsBoughtBefore {
   position: absolute;
   width: 1208px;
-  top: 1200px;
+  top: 885px;
   display: flex;
   justify-content: space-between;
 }
@@ -163,7 +162,6 @@ body .mainWrapper .Products .product-list {
   gap: 40px;
 }
 body .mainWrapper .Products .product-list .product {
-  margin-top: 100px;
   width: 272px;
   height: 349px;
   border-radius: 4px;
@@ -378,4 +376,4 @@ body .img-bg-footer .end {
   position: absolute;
   top: -40px;
   left: 1160px;
-}/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=search.css.map */

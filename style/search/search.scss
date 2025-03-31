@@ -93,7 +93,7 @@ body {
     }
 
     .Products {
-      width: 100%;
+      width: 1440px;
       height: 100%;
       display: flex;
       align-items: center;
@@ -105,11 +105,11 @@ body {
 
       .productsSales {
         width: 1208px;
+        position: absolute;
+        top: 50px;
         display: flex;
         justify-content: space-between;
-        h2 {
-          margin-top: -50px;
-        }
+
         button {
           background-color: #fbf8ec;
           cursor: pointer;
@@ -127,7 +127,7 @@ body {
       .productsNeewss {
         position: absolute;
         width: 1208px;
-        top: 900px;
+        top: 470px;
         display: flex;
         justify-content: space-between;
         button {
@@ -147,7 +147,7 @@ body {
       .productsBoughtBefore {
         position: absolute;
         width: 1208px;
-        top: 1200px;
+        top: 885px;
         display: flex;
         justify-content: space-between;
         button {
@@ -172,7 +172,6 @@ body {
         gap: 40px;
 
         .product {
-          margin-top: 100px;
           width: 272px;
           height: 349px;
           border-radius: 4px;
@@ -258,6 +257,7 @@ body {
           display: none;
         }
       }
+    
     }
     .offers {
       .wrapper-offers {
@@ -339,9 +339,12 @@ body {
         h2 {
           margin-bottom: 70px;
         }
+        .map {
+        }
       }
     }
   }
+
   .img-bg-footer {
     height: 126px;
     display: flex;
