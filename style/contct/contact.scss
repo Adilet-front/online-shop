@@ -93,7 +93,7 @@ body {
     .glav {
       display: flex;
       gap: 20px;
-      margin-left: 442px;
+      margin-left: 150px;
       margin-top: 40px;
 
       #p1glav {
@@ -122,13 +122,13 @@ body {
         font-size: 64px;
         line-height: 150%;
         letter-spacing: 0%;
-        margin-left: 442px;
+        margin-left: 150px;
         margin-top: 30px;
       }
       .blocks2 {
         display: flex;
         gap: 100px;
-        margin-left: 442px;
+        margin-left: 150px;
         margin-top: 30px;
         .first {
           #p1 {
@@ -195,13 +195,13 @@ body {
       .display{
         margin-top: 40px;
         display: flex;
-        margin-left: 442px;
+        margin-left: 150px;
         gap: 80px;
       }
     }
     .map{
       margin-top: 30px;
-      margin-left: 442px;
+      margin-left: 150px;
     }
     .img-bg-footer {
       height: 126px;
@@ -245,7 +245,7 @@ body {
           right: 35%;
           .footerLi2 {
             position: absolute;
-            left: 872px;
+            margin-left: 230px;
 
             display: flex;
             flex-direction: row;
@@ -257,7 +257,7 @@ body {
       .phone {
         position: absolute;
         top: -100px;
-        left: 1160px;
+        left: 150px;
         display: flex;
         text-align: center;
         span {
@@ -268,7 +268,7 @@ body {
       .end {
         position: absolute;
         top: -40px;
-        left: 1160px;
+        // left: 1160px;
       }
     }
   }
