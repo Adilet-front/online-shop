@@ -1,0 +1,275 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik";
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbf8ec;
+
+  .mainWrapper {
+    header {
+      #header-Button {
+        margin-left: 116px;
+        background-color: #ffffff;
+
+        .logo-header {
+          cursor: pointer;
+        }
+      }
+
+      background-color: #ffffff;
+      width: 100%;
+      height: 72px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 40px;
+
+      .input-button-container {
+        position: relative;
+        input {
+          padding-left: 16px;
+          width: 838px;
+          height: 40px;
+          border: 1px solid #70c05b;
+          border-radius: 4px;
+        }
+        button {
+          position: absolute;
+          right: 10px;
+          top: 6px;
+          background-color: #ffffff;
+          cursor: pointer;
+        }
+      }
+      #Heart-page {
+        background-color: #ffffff;
+        cursor: pointer;
+        .heart-cont {
+          text-align: center;
+        }
+      }
+      #Cart-page {
+        cursor: pointer;
+        background-color: #ffffff;
+        margin-right: 116px;
+        cart-cont {
+          text-align: center;
+        }
+      }
+    }
+
+    .afterHeaderPhoto {
+      img {
+        position: relative;
+        width: 100%;
+        height: 252px;
+        object-fit: cover;
+      }
+      .imgIn {
+        position: absolute;
+        top: 74px;
+        object-fit: cover;
+        max-width: 100%;
+        max-height: 100%;
+        left: 9.7%;
+      }
+      .h1 {
+        h1 {
+          position: absolute;
+          display: flex;
+          left: 38.83%;
+          top: 170px;
+          font-weight: 700;
+          font-size: 48px;
+          color: hsl(0, 0%, 25%);
+        }
+      }
+    }
+    .glav {
+      display: flex;
+      gap: 20px;
+      margin-left: 442px;
+      margin-top: 40px;
+
+      #p1glav {
+        font-family: "Rubik";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        letter-spacing: 0%;
+      }
+      #p2glav {
+        font-family: "Rubik";
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 150%;
+        left: 100px;
+        padding-right: 10px;
+        color: #8f8f8f;
+      }
+    }
+    .maincont {
+      #top {
+        width: 1208px;
+        height: 96px;
+        font-family: Rubik;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 150%;
+        letter-spacing: 0%;
+        margin-left: 442px;
+        margin-top: 30px;
+      }
+      .blocks2 {
+        display: flex;
+        gap: 100px;
+        margin-left: 442px;
+        margin-top: 30px;
+        .first {
+          #p1 {
+            width: 234px;
+            height: 36px;
+            font-family: Rubik;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 150%;
+            letter-spacing: 0%;
+          }
+          #p2 {
+            width: 234px;
+            height: 36px;
+            font-family: Rubik;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            text-decoration: underline;
+            text-decoration-style: solid;
+            text-decoration-offset: 0%;
+            text-decoration-thickness: 0%;
+          }
+        }
+        .second {
+          #p1 {
+            width: 380px;
+            height: 36px;
+            font-family: Rubik;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 150%;
+            letter-spacing: 0%;
+          }
+          #p2 {
+            width: 380px;
+            height: 36px;
+            font-family: Rubik;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 150%;
+            letter-spacing: 0%;
+            text-decoration: underline;
+            text-decoration-style: solid;
+            text-decoration-offset: 0%;
+            text-decoration-thickness: 0%;
+          }
+        }
+      }
+    }
+    .blocks4 {
+      #magaz {
+        margin-top: 90px;
+        margin-left: 442px;
+        width: 1208px;
+        height: 54px;
+        font-family: Rubik;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 150%;
+        letter-spacing: 0%;
+      }
+      .display{
+        margin-top: 40px;
+        display: flex;
+        margin-left: 442px;
+        gap: 80px;
+      }
+    }
+    .map{
+      margin-top: 30px;
+      margin-left: 442px;
+    }
+    .img-bg-footer {
+      height: 126px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+
+      .bg-footer {
+        width: 100%;
+      }
+      .navs {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 1440px;
+        height: 126px;
+        nav {
+          position: absolute;
+          left: 116px;
+          bottom: 100px;
+
+          .footerLi1 {
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 50px;
+            list-style: none;
+
+            li {
+              a {
+                color: #414141;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+        .footerNav {
+          position: absolute;
+          right: 35%;
+          .footerLi2 {
+            position: absolute;
+            left: 872px;
+
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+            align-items: center;
+          }
+        }
+      }
+      .phone {
+        position: absolute;
+        top: -100px;
+        left: 1160px;
+        display: flex;
+        text-align: center;
+        span {
+          font-family: "Rubik";
+        }
+      }
+
+      .end {
+        position: absolute;
+        top: -40px;
+        left: 1160px;
+      }
+    }
+  }
+}
