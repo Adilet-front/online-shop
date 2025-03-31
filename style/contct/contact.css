@@ -86,7 +86,7 @@ body .mainWrapper .afterHeaderPhoto .h1 h1 {
 body .mainWrapper .glav {
   display: flex;
   gap: 20px;
-  margin-left: 442px;
+  margin-left: 150px;
   margin-top: 40px;
 }
 body .mainWrapper .glav #p1glav {
@@ -113,13 +113,13 @@ body .mainWrapper .maincont #top {
   font-size: 64px;
   line-height: 150%;
   letter-spacing: 0%;
-  margin-left: 442px;
+  margin-left: 150px;
   margin-top: 30px;
 }
 body .mainWrapper .maincont .blocks2 {
   display: flex;
   gap: 100px;
-  margin-left: 442px;
+  margin-left: 150px;
   margin-top: 30px;
 }
 body .mainWrapper .maincont .blocks2 .first #p1 {
@@ -180,12 +180,12 @@ body .mainWrapper .blocks4 #magaz {
 body .mainWrapper .blocks4 .display {
   margin-top: 40px;
   display: flex;
-  margin-left: 442px;
+  margin-left: 150px;
   gap: 80px;
 }
 body .mainWrapper .map {
   margin-top: 30px;
-  margin-left: 442px;
+  margin-left: 150px;
 }
 body .mainWrapper .img-bg-footer {
   height: 126px;
@@ -227,7 +227,7 @@ body .mainWrapper .img-bg-footer .navs .footerNav {
 }
 body .mainWrapper .img-bg-footer .navs .footerNav .footerLi2 {
   position: absolute;
-  left: 872px;
+  margin-left: 230px;
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -236,7 +236,7 @@ body .mainWrapper .img-bg-footer .navs .footerNav .footerLi2 {
 body .mainWrapper .img-bg-footer .phone {
   position: absolute;
   top: -100px;
-  left: 1160px;
+  left: 150px;
   display: flex;
   text-align: center;
 }
@@ -246,5 +246,4 @@ body .mainWrapper .img-bg-footer .phone span {
 body .mainWrapper .img-bg-footer .end {
   position: absolute;
   top: -40px;
-  left: 1160px;
 }/*# sourceMappingURL=contact.css.map */
