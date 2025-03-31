@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+* {
+  font-family: "Rubik";
+  border: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fbf8ec;
+}
+body .mainWrapper header {
+  background-color: #ffffff;
+  width: 100%;
+  height: 72px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+body .mainWrapper header #header-Button {
+  margin-left: 116px;
+  background-color: #ffffff;
+}
+body .mainWrapper header #header-Button .logo-header {
+  cursor: pointer;
+}
+body .mainWrapper header .input-button-container {
+  position: relative;
+}
+body .mainWrapper header .input-button-container input {
+  padding-left: 16px;
+  width: 838px;
+  height: 40px;
+  border: 1px solid #70c05b;
+  border-radius: 4px;
+}
+body .mainWrapper header .input-button-container button {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+body .mainWrapper header #Heart-page {
+  background-color: #ffffff;
+  cursor: pointer;
+}
+body .mainWrapper header #Heart-page .heart-cont {
+  text-align: center;
+}
+body .mainWrapper header #Cart-page {
+  cursor: pointer;
+  background-color: #ffffff;
+  margin-right: 116px;
+}
+body .mainWrapper header #Cart-page cart-cont {
+  text-align: center;
+}
+body .mainWrapper .afterHeaderPhoto img {
+  position: relative;
+  width: 100%;
+  height: 252px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+body .mainWrapper .afterHeaderPhoto .imgIn {
+  position: absolute;
+  top: 74px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+  left: 9.7%;
+}
+body .mainWrapper .afterHeaderPhoto .h1 h1 {
+  position: absolute;
+  display: flex;
+  left: 38.83%;
+  top: 170px;
+  font-weight: 700;
+  font-size: 48px;
+  color: hsl(0, 0%, 25%);
+}
+body .mainWrapper .glav {
+  display: flex;
+  gap: 20px;
+  margin-left: 442px;
+  margin-top: 40px;
+}
+body .mainWrapper .glav #p1glav {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+body .mainWrapper .glav #p2glav {
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 150%;
+  left: 100px;
+  padding-right: 10px;
+  color: #8f8f8f;
+}
+body .mainWrapper .maincont #top {
+  width: 1208px;
+  height: 96px;
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  margin-left: 442px;
+  margin-top: 30px;
+}
+body .mainWrapper .maincont .blocks2 {
+  display: flex;
+  gap: 100px;
+  margin-left: 442px;
+  margin-top: 30px;
+}
+body .mainWrapper .maincont .blocks2 .first #p1 {
+  width: 234px;
+  height: 36px;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+body .mainWrapper .maincont .blocks2 .first #p2 {
+  width: 234px;
+  height: 36px;
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-offset: 0%;
+  text-decoration-thickness: 0%;
+}
+body .mainWrapper .maincont .blocks2 .second #p1 {
+  width: 380px;
+  height: 36px;
+  font-family: Rubik;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+body .mainWrapper .maincont .blocks2 .second #p2 {
+  width: 380px;
+  height: 36px;
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  text-decoration: underline;
+  text-decoration-style: solid;
+  text-decoration-offset: 0%;
+  text-decoration-thickness: 0%;
+}
+body .mainWrapper .blocks4 #magaz {
+  margin-top: 90px;
+  margin-left: 442px;
+  width: 1208px;
+  height: 54px;
+  font-family: Rubik;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 150%;
+  letter-spacing: 0%;
+}
+body .mainWrapper .blocks4 .display {
+  margin-top: 40px;
+  display: flex;
+  margin-left: 442px;
+  gap: 80px;
+}
+body .mainWrapper .map {
+  margin-top: 30px;
+  margin-left: 442px;
+}
+body .mainWrapper .img-bg-footer {
+  height: 126px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body .mainWrapper .img-bg-footer .bg-footer {
+  width: 100%;
+}
+body .mainWrapper .img-bg-footer .navs {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 126px;
+}
+body .mainWrapper .img-bg-footer .navs nav {
+  position: absolute;
+  left: 116px;
+  bottom: 100px;
+}
+body .mainWrapper .img-bg-footer .navs nav .footerLi1 {
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 50px;
+  list-style: none;
+}
+body .mainWrapper .img-bg-footer .navs nav .footerLi1 li a {
+  color: #414141;
+  text-decoration: none;
+}
+body .mainWrapper .img-bg-footer .navs .footerNav {
+  position: absolute;
+  right: 35%;
+}
+body .mainWrapper .img-bg-footer .navs .footerNav .footerLi2 {
+  position: absolute;
+  left: 872px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+}
+body .mainWrapper .img-bg-footer .phone {
+  position: absolute;
+  top: -100px;
+  left: 1160px;
+  display: flex;
+  text-align: center;
+}
+body .mainWrapper .img-bg-footer .phone span {
+  font-family: "Rubik";
+}
+body .mainWrapper .img-bg-footer .end {
+  position: absolute;
+  top: -40px;
+  left: 1160px;
+}/*# sourceMappingURL=contact.css.map */
