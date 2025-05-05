@@ -14,9 +14,7 @@ const renderProducts = () => {
      ${product.categoryAll ? `<h2>${product.categoryAll}</h2>` : ""}
     </div>
       <div class="cont-img">
-        <button class="product-heart">
-          <img src="/photo/Button.svg" alt="" />
-        </button>
+      
        <a id="${product.id}" class="linkCart" href="/html/cart.html">
         <img src="${product.imageUrl}" alt=""/>
         ${product.discount ? `<p class="p-sale">-${product.discount}%</p>` : ""}
@@ -49,7 +47,7 @@ const renderProducts = () => {
     button.addEventListener("click", (event) => {
       const productId = button.id;
       console.log(productId);
-      
+
       addDetail(productId);
     });
   });
@@ -57,7 +55,7 @@ const renderProducts = () => {
   document.querySelectorAll(".inCartButton").forEach((button) => {
     button.addEventListener("click", (event) => {
       const productId = event.target.getAttribute("data-id");
-      
+
       addToCart(productId);
     });
   });
@@ -98,7 +96,6 @@ const addToCart = (id) => {
 
   localStorage.setItem("cart", JSON.stringify(cart));
 };
-
 
 const startApp = () => {
   fetch(url)
