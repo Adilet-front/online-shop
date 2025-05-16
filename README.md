@@ -22,6 +22,7 @@ db.json # Локальная база данных для json-server
 ### 1. Клонируйте репозиторий
 
 git clone https://github.com/Adilet-front/online-shop.git
+
 cd online-shop
 
 2. Установите зависимости
